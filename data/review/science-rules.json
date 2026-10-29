@@ -1,0 +1,449 @@
+{
+  "_meta": {
+    "purpose": "Every numeric rule of the energy / carbohydrate / sport / season engine, with its basis. test/sciencereview.test.js checks these values against the code so this file cannot drift.",
+    "basis": {
+      "uploaded_reference": "value or formula found in a reference uploaded by the project owner (location given)",
+      "published_not_uploaded": "published source that is NOT among the uploaded references; value typed from general knowledge and not verified here",
+      "app_rule": "design choice of the app (proposed); no reference"
+    },
+    "status": "partly reviewed 2026-10-22 (see each rule.review); rules without review still need human review",
+    "reviewedBy": null,
+    "reviewedAt": null
+  },
+  "rules": [
+    {
+      "id": "R-E1",
+      "topic": "RMR — Cunningham",
+      "code": "src/engine/energy.js bmr()",
+      "value": "500 + 22 × LBM",
+      "basis": "uploaded_reference",
+      "reference": "broad2019 Table 3.1 (p.25)"
+    },
+    {
+      "id": "R-E2",
+      "topic": "RMR — Mifflin-St Jeor",
+      "code": "src/engine/energy.js bmr()",
+      "value": "10W + 6.25H − 5A + 5 (m) / −161 (f)",
+      "basis": "uploaded_reference",
+      "reference": "broad2019 Table 3.1 (p.25)"
+    },
+    {
+      "id": "R-E3",
+      "topic": "Choice of Mifflin (not Harris-Benedict) when LBM is unavailable",
+      "code": "src/engine/energy.js bmr()",
+      "value": "Mifflin",
+      "basis": "app_rule",
+      "reference": "broad2019 names Harris-Benedict as the fallback with lower accuracy"
+    },
+    {
+      "id": "R-E4",
+      "topic": "Lean mass estimate without body-fat (Boer 1984)",
+      "code": "src/engine/energy.js fatFreeMass()",
+      "value": "m: 0.407W + 0.267H − 19.2; f: 0.252W + 0.473H − 48.3",
+      "basis": "published_not_uploaded",
+      "reference": "Boer 1984 (not uploaded)"
+    },
+    {
+      "id": "R-E5",
+      "topic": "Non-exercise activity factor",
+      "code": "NON_EXERCISE_PAL",
+      "key": "NON_EXERCISE_PAL",
+      "value": {
+        "sedentary": 1.2,
+        "light": 1.3,
+        "active": 1.4,
+        "very_active": 1.5
+      },
+      "basis": "app_rule",
+      "reference": "broad2019 ch.3 mentions single factors (e.g. 1.2, 1.5) only as examples"
+    },
+    {
+      "id": "R-E6",
+      "topic": "Exercise energy = (MET − 1) × kg × h",
+      "code": "src/engine/energy.js exerciseEnergy()",
+      "value": "net MET",
+      "basis": "app_rule",
+      "reference": "net-MET convention; Compendium of Physical Activities not uploaded"
+    },
+    {
+      "id": "R-E7",
+      "topic": "MET by sport (moderate intensity)",
+      "code": "SPORTS[*].met",
+      "key": "MET",
+      "value": {
+        "swimming": 7.0,
+        "fin_swimming": 8.0,
+        "strength": 5.0,
+        "running": 9.0,
+        "cycling": 7.5,
+        "endurance": 8.0,
+        "team_sports": 7.0,
+        "general": 5.0,
+        "fencing": 6.0,
+        "modern_pentathlon": 7.0,
+        "triathlon": 8.0
+      },
+      "basis": "published_not_uploaded",
+      "reference": "Compendium of Physical Activities (not uploaded; values typed from memory, unverified). fin_swimming / «مونو» has no compendium entry: 8.0 is an estimate · added 0.7.0: fencing 6.0 (Compendium, unverified); modern_pentathlon 7.0 and triathlon 8.0 are composite estimates (no single compendium entry)"
+    },
+    {
+      "id": "R-E8",
+      "topic": "Intensity multiplier on MET",
+      "code": "INTENSITY_FACTOR",
+      "key": "INTENSITY_FACTOR",
+      "value": {
+        "low": 0.75,
+        "moderate": 1.0,
+        "high": 1.2
+      },
+      "basis": "app_rule",
+      "reference": null
+    },
+    {
+      "id": "R-E9",
+      "topic": "Energy availability bands",
+      "code": "src/engine/energy.js eaStatus()",
+      "value": "≥45 adequate; 30–45 reduced; <30 low",
+      "basis": "uploaded_reference",
+      "reference": "broad2019 ch.4 §4.2 (p.72)"
+    },
+    {
+      "id": "R-E10",
+      "topic": "Minimum EA guard",
+      "code": "EA_THRESHOLD",
+      "key": "EA_THRESHOLD",
+      "value": 30,
+      "basis": "uploaded_reference",
+      "reference": "broad2019 ch.4 §4.2"
+    },
+    {
+      "id": "R-W1",
+      "topic": "Max deficit fraction of TDEE",
+      "code": "MAX_DEFICIT_FRACTION",
+      "key": "MAX_DEFICIT_FRACTION",
+      "value": 0.35,
+      "basis": "app_rule",
+      "reference": "broad2019 Table C1 gives ~500–1000 kcal/d, not a % cap",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "changed",
+        "note": "أقصى عجز 35% من الاحتياج (كان 25%)"
+      }
+    },
+    {
+      "id": "R-W2",
+      "topic": "Max weekly loss (% body mass)",
+      "code": "ABS_MAX_PCT",
+      "key": "ABS_MAX_PCT",
+      "value": 1.0,
+      "basis": "app_rule",
+      "reference": null,
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "changed",
+        "note": "بإقرار تحمل المسؤولية (بالغ): النزول لحد 0.9 كجم/أسبوع"
+      }
+    },
+    {
+      "id": "R-W3",
+      "topic": "Max weekly loss by season phase (%/week)",
+      "code": "PHASE_CAP",
+      "key": "PHASE_CAP",
+      "value": {
+        "off_season": 1.0,
+        "pre_season": 0.75,
+        "in_season": 0.4,
+        "transition": 0.75
+      },
+      "basis": "app_rule",
+      "reference": null
+    },
+    {
+      "id": "R-W4",
+      "topic": "7700 kcal per kg body mass",
+      "code": "KCAL_PER_KG",
+      "key": "KCAL_PER_KG",
+      "value": 7700,
+      "basis": "app_rule",
+      "reference": "arithmetic approximation, recalibrated from actual weights"
+    },
+    {
+      "id": "R-W5",
+      "topic": "Training-day share of deficit (periodisation)",
+      "code": "src/engine/energy.js buildPlan()",
+      "value": "70% of the average deficit on training days; rest-day deficit ≤25% of rest-day TDEE",
+      "basis": "app_rule",
+      "reference": null
+    },
+    {
+      "id": "R-C1",
+      "topic": "Base training-day carbohydrate during a deficit (g/kg)",
+      "code": "CARB_BASE",
+      "key": "CARB_BASE",
+      "value": {
+        "low": 3,
+        "moderate": 4,
+        "high": 5,
+        "very_high": 6
+      },
+      "basis": "app_rule",
+      "reference": "Compare broad2019 Table 3.3: light 3–5, moderate 5–7, high 6–10, very high 8–12 g/kg/d — the app is deliberately lower",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-C2",
+      "topic": "Carbohydrate adjustment by sport (g/kg)",
+      "code": "SPORT_NUTRITION[*].carbAdj",
+      "key": "SPORT_CARB_ADJ",
+      "value": {
+        "swimming": 0.5,
+        "fin_swimming": 0.5,
+        "running": 0.5,
+        "cycling": 0.5,
+        "endurance": 1,
+        "team_sports": 0,
+        "strength": -0.5,
+        "general": 0,
+        "fencing": 0,
+        "modern_pentathlon": 0.5,
+        "triathlon": 1
+      },
+      "basis": "app_rule",
+      "reference": null
+    },
+    {
+      "id": "R-C3",
+      "topic": "Carbohydrate adjustment by season phase (g/kg)",
+      "code": "SEASON_PHASES[*].carbAdj",
+      "key": "PHASE_CARB_ADJ",
+      "value": {
+        "off_season": -0.5,
+        "pre_season": 0,
+        "in_season": 0.5,
+        "transition": -0.5
+      },
+      "basis": "app_rule",
+      "reference": null
+    },
+    {
+      "id": "R-C4",
+      "topic": "Rest-day carbohydrate",
+      "code": "carbPerKg()",
+      "value": "training value − 1.5, minimum 2 g/kg",
+      "basis": "app_rule",
+      "reference": null,
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-C5",
+      "topic": "Carbohydrate loading before competition (g/kg)",
+      "code": "src/engine/competition.js",
+      "value": "9 for events >90 min; 7 endurance/intermittent; 6 other; race day 7–8",
+      "basis": "app_rule",
+      "reference": "broad2019 Table 3.3: fuelling up 7–12 g/kg for 24 h (<90 min events); loading 10–12 g/kg for 36–48 h (>90 min). The app's 9 g/kg for long events is below the reference range",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved",
+        "note": "التحميل يفضل 9 جم/كجم"
+      }
+    },
+    {
+      "id": "R-C6",
+      "topic": "Recovery after racing",
+      "code": "src/engine/competition.js",
+      "value": "≈1 g/kg carbohydrate + ≈0.3 g/kg protein within 30–60 min",
+      "basis": "app_rule",
+      "reference": "broad2019 Table 3.3 speedy refuelling 1–1.2 g/kg/h for 4 h; Table 3.4 protein 20–25 g; barclay2012 recovery within 30–60 min"
+    },
+    {
+      "id": "R-P1",
+      "topic": "Protein g/kg",
+      "code": "proteinPerKg()",
+      "value": "1.8 base; ≥2.0 athletes/strength/preserve muscle; 2.2 if lean or deficit ≥20%; max 2.4",
+      "basis": "app_rule",
+      "reference": "broad2019 ch.3 mentions maintaining at least 1.2–1.6 g/kg/d in some contexts; app values are higher by design",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-S1",
+      "topic": "Swimming sub-disciplines (incl. «مونو» / Bi-fins / Apnea)",
+      "code": "SWIM_DISCIPLINES",
+      "value": "change guidance text only, never numbers",
+      "basis": "app_rule",
+      "reference": "barclay2012 ch.2 timing; broad2019 Table 3.3 30–60 g/h for 1–2.5 h"
+    },
+    {
+      "id": "R-S2",
+      "topic": "Disciplines for fencing (foil/épée/sabre) and triathlon (sprint/olympic/70.3/full)",
+      "code": "SPORT_DISCIPLINES",
+      "value": "guidance text only, never numbers",
+      "basis": "app_rule",
+      "reference": "broad2019 Table 3.3 30–60 g/h for 1–2.5 h quoted for olympic distance"
+    },
+    {
+      "id": "R-W6",
+      "topic": "Minors 12–17 with guardian consent: max deficit fraction",
+      "code": "MAX_DEFICIT_FRACTION_MINOR",
+      "key": "MAX_DEFICIT_FRACTION_MINOR",
+      "value": 0.15,
+      "basis": "app_rule",
+      "reference": "owner decision 0.7.0 (guardian consent); barclay2012 notes adolescents need extra energy for growth — no deficit figure in the uploaded references"
+    },
+    {
+      "id": "R-W7",
+      "topic": "Minimum age for a goal",
+      "code": "validateGoalInput age",
+      "value": "12 years (weight loss for 12–17 only with linked-guardian consent; weekly rate ≤0.5%)",
+      "basis": "app_rule",
+      "reference": "owner decision 0.7.0"
+    },
+    {
+      "id": "R-W8",
+      "topic": "One-week calorie override chosen by the person",
+      "code": "src/service.js overrideLimits()/overrideTargets()",
+      "value": "1–7 days; minimum = max(TDEE×(1−25%) [15% for minors], 30 kcal/kg FFM + exercise kcal when training); no deficit while the plan is held; protein unchanged, 60% of the change to carbohydrate, fat floor from dayMacros (0.6 g/kg or 20% kcal)",
+      "basis": "app_rule",
+      "reference": "owner decision 0.7.0; reuses R-W1, R-W6, R-E10",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-W9",
+      "topic": "Non-athlete: no season phase",
+      "code": "validateGoalInput isAthlete=false",
+      "value": "sport=general, no season-phase rate cap or carbohydrate adjustment (absolute cap R-W2 still applies), general guidance only",
+      "basis": "app_rule",
+      "reference": "owner decision 0.7.0"
+    },
+    {
+      "id": "R-W10",
+      "topic": "Weekly loss with the adult self-responsibility acknowledgement",
+      "code": "WAIVER_MAX_KG",
+      "key": "WAIVER_MAX_KG",
+      "value": 0.9,
+      "basis": "app_rule",
+      "reference": "reviewer decision 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-G1",
+      "topic": "Gain goals: recommended and maximum weekly gain (% body weight)",
+      "code": "src/engine/gain.js GAIN_GOALS",
+      "key": "GAIN_GOALS",
+      "value": {
+        "muscle_gain": {
+          "recPct": 0.25,
+          "maxPct": 0.5,
+          "surplusMaxFraction": 0.15,
+          "proteinPerKg": 2.0,
+          "fatPct": 0.25
+        },
+        "weight_gain": {
+          "recPct": 0.5,
+          "maxPct": 0.75,
+          "surplusMaxFraction": 0.2,
+          "proteinPerKg": 1.8,
+          "fatPct": 0.3
+        },
+        "fat_gain": {
+          "recPct": 0.75,
+          "maxPct": 1.0,
+          "surplusMaxFraction": 0.25,
+          "proteinPerKg": 1.6,
+          "fatPct": 0.35
+        }
+      },
+      "basis": "app_rule",
+      "reference": "developer proposal 2026-10-22 after reviewer request; approved by the reviewer 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-G2",
+      "topic": "Gain goals: maximum surplus fraction of TDEE",
+      "code": "GAIN_GOALS.*.surplusMaxFraction",
+      "basis": "app_rule",
+      "reference": "developer proposal; see R-G1; approved by the reviewer 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-G3",
+      "topic": "Gain goals: protein g/kg and fat share of energy; carbohydrate is the remainder",
+      "code": "GAIN_GOALS.*.proteinPerKg / fatPct, gainDayMacros",
+      "basis": "app_rule",
+      "reference": "developer proposal; see R-G1; approved by the reviewer 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-G4",
+      "topic": "Gain goals: adaptive proposals (+100..+200 when slow, -150 when >150% of plan)",
+      "code": "adaptive.evaluateGain",
+      "basis": "app_rule",
+      "reference": "developer proposal; approved by the reviewer 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-G5",
+      "topic": "Gain goals: minors ≤0.5%/wk, in-season ≤0.25%/wk, target BMI ≥30 warning, >15% gain split",
+      "code": "GAIN_MINOR_MAX_PCT, GAIN_IN_SEASON_MAX_PCT, validate.gainTargetChecks",
+      "key": "GAIN_MINOR_MAX_PCT",
+      "value": 0.5,
+      "basis": "app_rule",
+      "reference": "developer proposal; approved by the reviewer 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    },
+    {
+      "id": "R-G6",
+      "topic": "Gain goals: screening hold lifted for REDS/bone/unintended-loss/age; eating, chronic, pregnancy still hold",
+      "code": "screening.screen profile.gain → GAIN_NO_HOLD",
+      "basis": "app_rule",
+      "reference": "developer proposal; approved by the reviewer 2026-10-22",
+      "review": {
+        "by": "أحمد ربيع حسين — أخصائي تغذية",
+        "at": "2026-10-22",
+        "decision": "approved"
+      }
+    }
+  ]
+}

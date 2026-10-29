@@ -1,0 +1,101 @@
+﻿id,ar,app_state,nni_item,nni_page,match,comparable,app_kcal,nni_kcal,diff_kcal_pct,app_protein,nni_protein,diff_protein_pct,app_fat,nni_fat,diff_fat_pct,app_carb,nni_carb,diff_carb_pct,app_fiber,nni_fiber,diff_fiber_pct,app_ironMg,nni_ironMg,diff_ironMg_pct,nni_calcium_mg,worst_macro_diff_pct,flag,transcription
+cornstarch,نشا,ready,"Corn, starch",8,same,true,381,380,0,0.26,0.2,1,0.05,0.1,-1,91.27,94.5,-3,0.9,0,18,0.47,0,47,0,3,close,macros: energy/proximate consistency
+pasta_dry,مكرونة / لسان عصفور / شعرية (جافة),raw,Macaroni,8,same,true,371,361,3,13.04,12,9,1.51,1.1,8,74.67,76.2,-2,3.2,0.4,56,3.3,1.4,136,35,9,close,macros: energy/proximate consistency
+rice_white_raw,أرز مصري أبيض (نيئ),raw,"Rice, grains (short)",9,same,true,365,351,4,7.13,7.3,-2,0.66,0.7,-1,79.95,79.1,1,1.3,0.3,20,4.31,0.69,362,30,4,close,macros: energy/proximate consistency
+semolina,سميد,ready,Semolina,10,same,true,360,360,0,12.68,12,6,1.05,1.8,-15,72.83,74.4,-2,3.9,0.4,70,1.23,2.02,-39,26,15,check,macros: energy/proximate consistency; minerals: second visual read
+wheat_whole,قمح بليلة (حبوب كاملة جافة),raw,"Wheat, grains",10,same,true,327,344,-5,12.61,12,5,1.54,1.6,-1,71.18,72.7,-2,12.2,2.4,196,3.19,3.1,3,35,5,close,macros: energy/proximate consistency
+flour,دقيق أبيض,ready,"Wheat, flour (white)",10,same,true,366,354,3,10.9,10,9,1.48,1,10,77.3,76.7,1,2.7,0.4,46,5.62,0.85,477,18,10,close,macros: energy/proximate consistency; minerals: second visual read
+bulgur_dry,برغل (جاف),raw,"Wheat, parboiled (Burghul)",11,same,true,342,352,-3,12.29,12.3,0,1.33,1.8,-9,75.87,72.4,5,12.5,1,230,2.46,3.2,-23,43,9,close,macros: energy/proximate consistency
+baladi_bread,عيش بلدي,ready,"Bread, Baladi",12,same,true,254,254,0,8.8,8.8,0,1,1,0,53.8,53.8,0,1.3,1.3,0,2.89,2.89,0,42,0,close,macros: energy/proximate consistency
+breadcrumbs,بقسماط مطحون,ready,"Bread, crumb",12,same,true,395,356,11,13.35,10.3,30,5.3,2,66,71.98,76.2,-6,4.5,2,50,4.83,2,142,76,66,large_difference,macros: energy/proximate consistency
+white_bread,عيش فينو / توست أبيض,ready,"Bread, sliced (white toast)",13,same,true,270,270,0,8.4,8.4,0,1.5,1.5,0,56.1,56.1,0,0.5,0.5,0,1,1,0,30,0,close,macros: energy/proximate consistency
+taro,قلقاس,raw,Colocasia,16,same,true,112,77,45,1.5,2.1,-12,0.2,0.2,0,26.46,17.4,52,4.1,0.8,66,0.55,1,-45,62,52,large_difference,macros: energy/proximate consistency
+potato_raw,بطاطس بالقشر (نيئة),raw,Potatoes,16,same,true,77,73,5,2.05,1.6,9,0.09,0.1,0,17.49,17,3,2.1,0.6,30,0.81,0.6,21,7,9,close,macros: energy/proximate consistency
+sweet_potato_baked,بطاطا مشوية بالقشر,cooked,Sweetpotatos,16,state_differs,false,90,112,-20,2.01,1.8,4,0.15,0.3,-3,20.71,26.4,-22,3.3,0.9,48,0.69,0.8,-11,39,22,not_equivalent,macros: energy/proximate consistency; minerals: second visual read
+fava_dry,فول مدشوش / فول ناشف (جاف),raw,"Beans, broad",17,same,true,341,326,5,26.12,24.1,8,1.53,1.5,1,58.29,60.9,-4,25,6.9,262,6.7,5.8,16,85,8,close,macros: energy/proximate consistency
+fava_cooked,فول مدمس (حبوب مطبوخة، بدون زيت),cooked,"Beans, broad (FoulMedames)",17,same,true,110,98,12,7.6,5.6,36,0.4,0.7,-6,19.65,19.2,2,5.4,2,68,1.5,2.4,-37,37,36,large_difference,macros: energy/proximate consistency
+white_beans_cooked,فاصوليا بيضا مسلوقة,cooked,"Beans, kidney white, cooked",17,prepared_differently,false,139,134,4,9.73,8.9,9,0.35,2.4,-41,25.09,21.2,18,6.3,1.9,88,3.7,2.5,48,57,41,not_equivalent,macros: energy/proximate consistency; minerals: second visual read
+chickpeas_cooked,حمص مطبوخ,cooked,Chickpeas,18,state_differs,false,164,352,-53,8.86,20.3,-56,2.59,4.2,-32,27.42,63.6,-57,7.6,5.3,43,2.89,6.7,-57,127,57,not_equivalent,macros: energy/proximate consistency
+black_eyed_cooked,لوبيا ناشفة مسلوقة,cooked,"Cowpeas, cooked",18,prepared_differently,false,116,131,-11,7.73,8.5,-9,0.53,3.5,-59,20.76,18.4,13,6.5,2,90,2.51,2.2,14,37,59,not_equivalent,macros: energy/proximate consistency
+fenugreek_seed,حلبة حب,ready,Fenugreek,18,same,true,323,356,-9,23,25.6,-10,6.41,6.7,-4,58.35,54.8,6,24.6,6.5,278,33.53,14,140,194,10,close,macros: energy/proximate consistency
+lentils_cooked,عدس مطبوخ,cooked,"Lentils, peeled (yellow)",18,state_differs,false,116,340,-66,9.02,22.9,-61,0.38,0.7,-6,20.13,62.6,-68,7.9,2.1,116,3.33,6.8,-51,50,68,not_equivalent,macros: energy/proximate consistency
+almonds,لوز,ready,Almonds,19,same,true,626,640,-2,21.45,17.6,22,51.09,55.8,-8,20.03,19.3,4,10.8,2.5,166,3.74,4.5,-17,215,22,check,macros: energy/proximate consistency
+peanuts,فول سوداني محمص بدون ملح,ready,Peanuts,19,state_differs,false,587,585,0,24.35,26.4,-8,49.66,44.9,11,21.26,21.7,-2,8.4,2.9,110,1.58,2.5,-37,55,11,not_equivalent,macros: energy/proximate consistency
+tahini,طحينة,ready,Sesame butter (Tehina),20,same,true,595,660,-10,17,20,-15,53.76,60,-10,21.19,14,51,9.3,4,106,8.95,6.1,47,340,51,large_difference,macros: energy/proximate consistency
+walnuts,عين جمل,ready,Walnuts,20,same,true,730,695,5,14.56,14.7,-1,69.74,64.9,7,10.91,15.2,-28,5.2,2.2,60,2.24,2,12,75,28,large_difference,macros: energy/proximate consistency
+green_beans,فاصوليا خضراء,raw,"Beans, green",20,same,true,40,30,33,1.97,1.8,3,0.28,0.2,2,7.41,6.3,18,3,1.1,38,0.65,1.75,-63,35,33,large_difference,macros: energy/proximate consistency
+beet,بنجر,raw,Beetroots,21,same,true,43,45,-4,1.61,1.5,2,0.17,0.1,1,9.56,10.6,-10,2.8,1.1,34,0.8,0.9,-10,22,10,close,macros: energy/proximate consistency
+broccoli,بروكلي,raw,Broccoli,21,same,true,39,38,3,2.57,3.5,-19,0.34,0.3,1,6.27,6.9,-9,2.4,1.5,18,0.69,1.23,-44,57,19,check,macros: energy/proximate consistency
+cabbage,كرنب,raw,"Cabbage, white",21,same,true,31,27,13,0.96,1.3,-7,0.23,0.2,1,6.38,6.2,3,2.5,1.2,26,0.07,0.58,-51,40,13,check,macros: energy/proximate consistency
+carrot,جزر,raw,Carrots,21,same,true,48,36,33,0.94,1.2,-5,0.35,0.2,3,10.27,8.4,22,3.1,1,42,0.15,0.58,-43,40,33,large_difference,macros: energy/proximate consistency
+chard,سلق,raw,Chard Swiss,22,same,true,19,27,-27,1.8,2.3,-10,0.2,0.4,-4,3.74,4.4,-13,1.6,0.9,14,1.8,3.05,-41,85,27,large_difference,macros: energy/proximate consistency; minerals: second visual read
+coriander_leaves,كسبرة خضراء,raw,Coriander,22,same,true,23,34,-32,2.13,3.7,-31,0.52,0.6,-2,3.67,5.2,-29,2.8,1.7,22,1.77,3.3,-46,182,32,large_difference,macros: energy/proximate consistency
+cucumber,خيار,raw,Cucumber,22,same,true,16,16,0,0.62,0.7,-2,0.18,0.1,2,2.95,3.7,-15,0.5,0.6,-2,0,0.6,-60,18,15,check,macros: energy/proximate consistency; minerals: second visual read
+dill,شبت,raw,Dill,22,same,true,43,36,19,3.46,2.9,11,1.12,0.5,12,7.02,6.2,13,2.1,1.2,18,,2.1,,150,19,check,macros: energy/proximate consistency; minerals: second visual read
+eggplant,باذنجان,raw,"Eggplant, black or white",22,same,true,25,28,-10,0.98,1.7,-14,0.18,0.2,0,5.88,6.1,-4,3,1.2,36,0.23,0.5,-27,15,14,check,macros: energy/proximate consistency
+arugula,جرجير,raw,Garden rocket,23,same,true,25,32,-22,2.58,2.5,2,0.66,0.5,3,3.65,5.4,-32,1.6,1,12,1.46,8.3,-82,127,32,large_difference,macros: energy/proximate consistency
+garlic,توم,raw,"Garlic, bulb",23,same,true,143,142,1,6.62,5.6,18,0.38,0.3,2,28.2,30.3,-7,2.7,1.2,30,1.7,1.6,6,34,18,check,macros: energy/proximate consistency; minerals: second visual read
+grape_leaves,ورق عنب,raw,Grape leaves,23,same,true,93,80,16,5.6,4,32,2.12,0.6,30,17.31,17,2,11,2.3,174,2.63,2.2,20,394,32,large_difference,macros: energy/proximate consistency
+molokhia,ملوخية خضرا مفرومة,raw,Jew's mallow,23,same,true,34,54,-37,4.65,5,-7,0.25,1,-15,5.8,7.8,-26,,1.5,,4.76,4.2,13,270,37,large_difference,macros: energy/proximate consistency
+lettuce,خس روماني,raw,"Lettuce, leaves",24,similar,true,17,16,3,1.23,1.1,3,0.3,0.3,0,3.29,2.8,10,2.1,0.7,28,,1,,28,10,close,macros: energy/proximate consistency
+mint,نعناع فريش,raw,Mint,24,same,true,44,52,-15,3.29,3.7,-8,0.73,1.2,-9,8.41,9.3,-10,6.8,2.8,80,,1.2,,160,15,check,macros: energy/proximate consistency
+mushrooms,مشروم أبيض,raw,Mushrooms,24,same,true,31,31,0,2.89,2.5,8,0.37,0.1,5,4.08,5.6,-27,1.7,0.5,24,0.23,0.6,-37,6,27,large_difference,macros: energy/proximate consistency
+okra,بامية,raw,Okra,24,same,true,33,47,-30,1.93,2,-1,0.19,0.2,0,7.45,10.3,-28,3.2,1,44,0.62,1.9,-67,98,30,large_difference,macros: energy/proximate consistency
+green_onion,بصل أخضر,raw,"Onions, green",25,same,true,32,49,-35,1.83,1.1,15,0.19,0.2,0,7.34,11.6,-37,2.6,0.9,34,1.48,1.05,41,125,37,large_difference,macros: energy/proximate consistency
+onion,بصل,raw,"Onions, mature bulb",25,same,true,40,60,-33,1.1,1.2,-2,0.1,0.2,-2,9.34,14,-33,1.7,0.7,20,0.21,0.5,-29,35,33,large_difference,macros: energy/proximate consistency
+parsley,بقدونس,raw,Parsley,25,same,true,36,50,-28,2.97,3.3,-7,0.79,0.4,8,6.33,9.5,-33,3.3,1.3,40,6.2,6.55,-5,210,33,large_difference,macros: energy/proximate consistency; minerals: second visual read
+peas_green,بسلة خضرا,raw,Peas,25,same,true,81,89,-9,5.42,6.2,-13,0.4,0.4,0,14.45,17.2,-16,5.7,2.1,72,1.47,1.7,-14,20,16,check,macros: energy/proximate consistency
+bell_pepper_green,فلفل رومي أخضر,raw,"Peppers, green",25,same,true,23,24,-3,0.72,1.3,-12,0.11,0.3,-4,4.78,5.6,-15,0.9,1.5,-12,0.19,0.9,-71,15,15,check,macros: energy/proximate consistency
+bell_pepper_red,فلفل رومي أحمر,raw,"Peppers, orange/red/yellow",25,same,true,31,34,-9,0.9,1.2,-6,0.13,0.3,-3,6.65,7.8,-15,1.2,1.2,0,0.35,0.95,-60,5,15,check,macros: energy/proximate consistency
+spinach,سبانخ,raw,Spinach,26,same,true,28,22,20,2.91,2.5,8,0.6,0.3,6,2.64,3.1,-9,1.6,0.7,18,1.05,4.2,-75,92,20,check,macros: energy/proximate consistency
+zucchini,كوسة,raw,Squash,26,same,true,17,24,-23,1.21,1.3,-2,0.32,0.2,2,3.11,5,-38,1,0.8,4,0.37,0.5,-13,25,38,large_difference,macros: energy/proximate consistency; minerals: second visual read
+tomato,طماطم,raw,Tomatoes,27,same,true,18,20,-7,0.88,1.1,-4,0.2,0.3,-2,3.89,3.7,4,1.2,0.6,12,0.27,0.5,-23,15,7,close,macros: energy/proximate consistency
+tomato_paste,صلصة طماطم مركزة,ready,"Tomato, paste",27,same,true,82,78,5,4.32,3.8,10,0.47,0.4,1,18.91,15.3,24,4.1,0.5,72,2.98,3.1,-4,25,24,check,macros: energy/proximate consistency
+apple,تفاح بالقشر,raw,Apples,27,same,true,52,57,-9,0.26,0.4,-3,0.17,0.2,-1,13.81,14.3,-3,2.4,0.8,32,0.12,0.3,-18,5,9,close,macros: energy/proximate consistency
+dried_apricots,قمر الدين / مشمش مجفف,ready,"Apricots, dried",27,same,true,241,282,-15,3.39,4.5,-22,0.51,0.6,-2,62.64,67.8,-8,7.3,3.2,82,2.66,5,-47,86,22,check,macros: energy/proximate consistency
+avocado,أفوكادو,raw,Avocado,27,same,true,160,165,-3,2,2.2,-4,14.66,14,5,8.53,9,-5,6.7,1.5,104,0.55,1.05,-48,15,5,close,macros: energy/proximate consistency; minerals: second visual read
+banana,موز,raw,Bananas,27,same,true,98,95,3,0.74,1.3,-11,0.29,0.3,0,23,22.3,3,1.7,0.6,22,0,0.6,-60,10,11,check,macros: energy/proximate consistency
+dates,تمر,ready,"Dates, dried (Agwa)",28,similar,true,315,315,0,2.3,2.3,0,0.5,0.5,0,77.5,77.5,0,2.2,2.2,0,3.2,3.2,0,62,0,close,macros: energy/proximate consistency
+guava,جوافة,raw,Guavas,28,same,true,68,62,10,2.55,0.8,35,0.95,0.5,9,14.32,16.9,-15,5.4,3.4,40,0.26,0.8,-54,23,35,large_difference,macros: energy/proximate consistency
+mango,مانجو,raw,Mangos,29,same,true,60,68,-12,0.82,0.8,0,0.38,0.3,2,14.98,16.6,-10,1.6,1.1,10,0.16,0.5,-34,15,12,check,macros: energy/proximate consistency
+orange,برتقال,raw,Oranges,29,same,true,47,56,-16,0.94,1.1,-3,0.12,0.3,-4,11.75,12.7,-7,2.4,0.6,36,0.1,0.3,-20,37,16,check,macros: energy/proximate consistency; minerals: second visual read
+raisins,زبيب,ready,Raisins,30,same,true,299,320,-7,3.3,2.4,18,0.25,0.3,-1,79.32,78.5,1,4.5,1.6,58,1.79,1.64,9,63,18,check,macros: energy/proximate consistency; minerals: second visual read
+strawberries,فراولة,raw,Strawberries,30,same,true,36,34,6,0.64,0.8,-3,0.22,0.4,-4,7.96,7.9,1,1.8,1.2,12,0.26,0.9,-64,26,6,close,macros: energy/proximate consistency; minerals: second visual read
+watermelon,بطيخ,raw,Watermelons,30,same,true,30,26,13,0.61,0.4,4,0.15,0.1,1,7.55,6.3,20,0.4,0.4,0,0.24,0.4,-16,6,20,check,UNCERTAIN — read from printed book
+honey,عسل نحل,ready,Honey,32,same,true,304,329,-8,0.3,0.3,0,0,,,82.4,82,0,0.2,,,0.42,0.6,-18,11,8,close,macros: energy/proximate consistency
+jam,مربى,ready,Jams,32,same,true,278,283,-2,0.37,0.7,-7,0.07,0.1,-1,68.86,70,-2,1.1,0.3,16,0.49,1.2,-59,16,7,close,macros: energy/proximate consistency; minerals: second visual read
+sugar,سكر أبيض,ready,"Sugar, sucrose",33,same,true,401,398,1,0,0,0,0.32,0,6,99.6,99.5,0,0,0,0,0.05,,,,6,close,macros: energy/proximate consistency
+beef_liver_raw,كبدة بقري (نيئة),raw,"Beef, liver",35,same,true,135,132,2,20.36,19.5,4,3.63,4,-7,3.89,4.4,-10,0,0,0,4.9,7.8,-37,10,10,close,macros: energy/proximate consistency; minerals: second visual read
+beef_cubes_lean_raw,لحم بقري قطع قليلة الدهن (نيئ),raw,"Beef, meat",35,different_cut,false,137,186,-26,21.41,19.6,9,5,11.9,-58,0,0,0,0,0,0,2.39,3.4,-30,15,58,not_equivalent,macros: energy/proximate consistency
+beef_lean_raw,لحم بقري مفروم قليل الدهن 95% (نيئ),raw,"Beef, meat ground",35,different_cut,false,137,216,-37,21.41,18,19,5,16,-69,0,0,0,0,0,0,2.39,2.7,-11,14,69,not_equivalent,macros: energy/proximate consistency
+chicken_breast_raw,صدور فراخ بدون جلد (نيئة),raw,"Chicken, meat (light)",37,same,true,120,109,10,22.5,20.5,10,2.62,3,-8,0,0,0,0,0,0,0.37,1.1,-66,11,10,close,macros: energy/proximate consistency; minerals: second visual read
+chicken_thigh_raw,أوراك فراخ بدون جلد وعظم (نيئة),raw,"Chicken, meat (dark)",37,same,true,121,121,0,19.66,19,3,4.12,5,-18,0,0,0,0,0,0,0.81,1.6,-49,12,18,check,macros: energy/proximate consistency; minerals: second visual read
+chicken_drumstick_raw,دبابيس فراخ بدون جلد (لحم فقط، نيئة),raw,"Chicken, meat (dark)",37,similar,true,121,121,0,19,19,0,5,5,0,0,0,0,0,0,0,1.6,1.6,0,12,0,close,macros: energy/proximate consistency; minerals: second visual read
+pigeon_raw,حمام (لحم بدون جلد، نيئ),raw,"Pigeon, meat and skin",38,different_cut,false,142,251,-43,17.5,20,-12,7.5,19,-61,0,0,0,0,0,0,4.51,2.2,105,27,61,not_equivalent,macros: energy/proximate consistency
+egg_whole,بيض كامل,raw,"Eggs, chicken, whole",38,same,true,143,149,-4,12.4,12.6,-2,9.96,10.8,-8,0.96,0.3,13,0,0,0,1.67,2.5,-33,62,13,check,macros: energy/proximate consistency
+egg_white,بياض بيض,raw,"Eggs, chicken, white",38,same,true,52,46,13,10.7,11,-3,0,0.1,-2,2.36,0.2,43,0,0,0,0.08,0.15,-7,10,43,large_difference,macros: energy/proximate consistency; minerals: second visual read
+sardines_oil,سردين معلب بالزيت (مصفى),ready,"Sardines, canned",40,same,true,208,227,-8,24.62,22,12,11.45,15.4,-26,0,0.1,-2,0,0,0,2.92,3,-3,320,26,large_difference,macros: energy/proximate consistency; minerals: second visual read
+shrimp_raw,جمبري مقشر (نيئ),raw,Shrimp,41,same,true,85,88,-3,20.1,19.5,3,0.51,0.9,-8,0,0.5,-10,0,0,0,0.21,1.41,-85,57,10,close,macros: energy/proximate consistency
+tilapia_raw,سمك بلطي (نيئ),raw,Tilapia,41,same,true,96,94,2,20.08,19,6,1.7,2,-6,0,0,0,0,0,0,0.56,1.9,-71,92,6,close,macros: energy/proximate consistency; minerals: second visual read
+tilapia_cooked,سمك بلطي (مطهو),cooked,"Tilapia, grilled",41,similar,true,128,121,6,26.15,22.5,16,2.65,2.6,1,0,1.9,-38,0,0,0,0.69,1.1,-37,,38,large_difference,macros: energy/proximate consistency; minerals: second visual read
+tuna_water,تونة معلبة في ماء (مصفاة),ready,Tuna canned,41,different_pack,false,85,267,-68,19,24.6,-23,0.94,18.5,-95,0.08,0.4,-6,0,0,0,1.67,2.75,-39,10,95,not_equivalent,macros: energy/proximate consistency
+butter,زبدة,ready,Butter (unsalted),41,similar,true,743,742,0,0.85,0.7,3,82.2,82,0,0.06,0.3,-5,0,0,0,0.06,0.16,-10,15,5,close,macros: energy/proximate consistency
+ghee,سمنة بلدي,ready,Butter oil (ghee),41,same,true,896,896,0,0.2,0.2,0,99.5,99.5,0,0,0,0,0,0,0,0,0,0,0,0,close,macros: energy/proximate consistency
+areesh_cheese,جبن قريش,ready,"Cheese, kareesh",42,same,true,100,100,0,13,13,0,3.5,3.5,0,4.1,4.1,0,0,0,0,0.41,0.41,0,300,0,close,macros: energy/proximate consistency; minerals: second visual read
+mozzarella_light,جبنة موتزاريلا نصف دسم,ready,"Cheese, mozzarella",42,similar,true,254,265,-4,24.26,27,-10,15.92,16.5,-4,2.77,2.2,11,0,0,0,,0.4,,724,11,check,macros: energy/proximate consistency
+parmesan,جبنة رومي / بارميزان مبشورة,ready,"Cheese, parmesan",42,same,true,399,399,0,35,35,0,27.5,27.5,0,2.9,2.9,0,0,0,0,0.4,0.4,0,1016,0,close,macros: energy/proximate consistency; minerals: second visual read
+white_cheese,جبنة بيضا (دمياطي/فيتا),ready,"Cheese, white",42,same,true,256,256,0,16.3,16.3,0,19.8,19.8,0,3.2,3.2,0,0,0,0,0.2,0.2,0,456,0,close,macros: energy/proximate consistency
+milk_1pct,لبن 1% دسم,ready,"Milk, half cream",43,similar,true,43,48,-10,3.38,3.4,0,0.95,1.5,-11,5.18,5.1,2,0,0,0,0,0.05,-5,128,11,check,macros: energy/proximate consistency
+yogurt_lowfat,زبادي قليل الدسم,ready,"Yoghurt, low fat",44,same,true,63,50,26,5.25,4,25,1.55,0.9,13,7.04,6.4,10,0,0,0,0.08,0.2,-12,170,26,large_difference,macros: energy/proximate consistency
+orange_juice,عصير برتقال طازج,ready,"Juice, orange",45,same,true,47,46,2,0.81,0.6,4,0.36,0.2,3,10.01,10.5,-5,0.3,0.1,4,0.07,0.4,-33,10,5,close,macros: energy/proximate consistency
+cinnamon,قرفة مطحونة,ready,Cinnamon,46,same,true,247,263,-6,3.99,4,0,1.24,2,-15,80.59,81.4,-1,53.1,24.1,120,8.32,14.2,-41,500,15,check,macros: energy/proximate consistency
+coriander_seed,كزبرة ناشفة مطحونة,ready,Coriander,46,same,true,298,284,5,12.37,13.6,-9,17.77,15.7,13,54.99,55.5,-1,41.9,33.5,25,,18.2,,380,13,check,macros: energy/proximate consistency
+cumin,كمون مطحون,ready,Cumin,46,same,true,375,327,15,17.81,18,-1,22.27,13.3,67,44.24,40.8,8,10.5,7,50,66.36,37,79,1025,67,large_difference,macros: energy/proximate consistency
+ginger,جنزبيل طازج,raw,Ginger,46,state_differs,false,80,338,-76,1.82,9,-80,0.75,3.4,-53,17.77,70.9,-75,2,3,-20,0.6,10.7,-94,120,80,not_equivalent,macros: energy/proximate consistency
+paprika,بابريكا,ready,"Pepper, red",47,similar,true,282,291,-3,14.14,15.6,-9,12.89,7.7,67,53.99,57.9,-7,34.9,18.1,93,21.14,8.7,143,140,67,large_difference,macros: energy/proximate consistency
+thyme,زعتر طازج,raw,Thyme,47,state_differs,false,101,287,-65,5.56,12.2,-54,1.68,2.9,-24,24.45,64.9,-62,14,11.8,19,,41,,210,65,not_equivalent,macros: energy/proximate consistency
+baking_powder,بيكنج باودر,ready,Backing powder,47,same,true,53,144,-63,0,0.9,-18,0,,,27.7,35,-21,0.2,,,11.02,,,,63,large_difference,macros: energy/proximate consistency
+cocoa_powder,كاكاو خام بدون سكر,ready,Coca powder,47,similar,true,228,438,-48,19.6,17,15,13.7,18.9,-28,57.9,54.6,6,37,4.6,648,13.86,8.5,63,130,48,large_difference,macros: energy/proximate consistency; minerals: second visual read
+sunflower_oil,زيت عباد الشمس,ready,Oil (vegetable),47,similar,true,884,899,-2,0,,,100,99.9,0,0,,,0,,,,,,,2,close,macros: energy/proximate consistency
+tamarind,تمر هندي (لب),ready,Tamarind,48,same,true,239,292,-18,2.8,3.1,-6,0.6,0.4,4,62.5,71.9,-13,5.1,3,42,2.8,1,180,5,18,check,UNCERTAIN — read from printed book
+salt,ملح,ready,"Salt, table/cooking",48,same,true,0,,,0,,,0,,,0,,,0,,,0,,,29,0,close,UNCERTAIN — read from printed book

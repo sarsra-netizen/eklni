@@ -1,0 +1,4 @@
+// Versions are pinned. Android Gradle Plugin 8.7.3 needs Gradle 8.9+ and JDK 17+ (the workflow uses Gradle 8.11.1 and JDK 21).
+plugins {
+    id "com.android.application" version "8.7.3" apply false
+}

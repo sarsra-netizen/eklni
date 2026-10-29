@@ -1,0 +1,92 @@
+# Builds the offline Android app of Eklni (أكلني) on every push to main, on pull requests, on tags v*, and on demand.
+# 1) runs the full test suite and the fix-verification check — no APK is built if anything fails;
+# 2) bundles the app page (node demo/build.js --mobile → mobile/android/app/src/main/assets/www/index.html);
+# 3) builds the debug APK (installable directly) and, when the signing secrets exist, a signed release APK;
+# 4) uploads the APKs as a workflow artifact, and attaches them to a GitHub Release when the push is a tag v*.
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # only used to attach the APK to a Release on tags
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Tests
+        env:
+          EKLNI_TEST_CHROMIUM: /usr/bin/google-chrome
+        run: npm test
+
+      - name: Every recorded fix still has a passing test
+        env:
+          EKLNI_TEST_CHROMIUM: /usr/bin/google-chrome
+        run: npm run verify-fixes
+
+      - name: Bundle the app page
+        run: node demo/build.js --mobile
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.11.1"
+
+      - name: Version
+        run: |
+          echo "EKLNI_VERSION_NAME=$(node -p "require('./package.json').version")" >> "$GITHUB_ENV"
+          echo "EKLNI_VERSION_CODE=${{ github.run_number }}" >> "$GITHUB_ENV"
+
+      - name: Build debug APK
+        run: gradle -p mobile/android assembleDebug --no-daemon
+
+      - name: Build signed release APK (only when the signing secrets are set)
+        env:
+          KEYSTORE_B64: ${{ secrets.EKLNI_KEYSTORE_BASE64 }}
+          EKLNI_KEYSTORE_PASSWORD: ${{ secrets.EKLNI_KEYSTORE_PASSWORD }}
+          EKLNI_KEY_ALIAS: ${{ secrets.EKLNI_KEY_ALIAS }}
+          EKLNI_KEY_PASSWORD: ${{ secrets.EKLNI_KEY_PASSWORD }}
+        if: ${{ env.KEYSTORE_B64 != '' }}
+        run: |
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/eklni.keystore"
+          EKLNI_KEYSTORE_FILE="$RUNNER_TEMP/eklni.keystore" gradle -p mobile/android assembleRelease --no-daemon
+          rm -f "$RUNNER_TEMP/eklni.keystore"
+
+      - name: Name the APKs
+        run: |
+          mkdir -p dist
+          cp mobile/android/app/build/outputs/apk/debug/app-debug.apk "dist/eklni-${EKLNI_VERSION_NAME}-${EKLNI_VERSION_CODE}-debug.apk"
+          if [ -f mobile/android/app/build/outputs/apk/release/app-release.apk ]; then
+            cp mobile/android/app/build/outputs/apk/release/app-release.apk "dist/eklni-${EKLNI_VERSION_NAME}-${EKLNI_VERSION_CODE}.apk"
+          fi
+          ls -la dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eklni-android-${{ env.EKLNI_VERSION_NAME }}-${{ env.EKLNI_VERSION_CODE }}
+          path: dist/*.apk
+          if-no-files-found: error
+
+      - name: Attach to Release (tags v* only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.apk

@@ -1,0 +1,108 @@
+pdf_page,printed_page,no,nni_item,app_food,match,refuse_pct,water_g,kcal,protein_g,fat_g,ash_g,fiber_g,carb_available_g,sodium_mg,potassium_mg,calcium_mg,phosphorus_mg,magnesium_mg,iron_mg,zinc_mg,transcription_check,note
+12,8,10,"Corn, starch",cornstarch,same,0,5.0,380,0.2,0.1,0.2,0.0,94.5,5,7,0,30,0,0.00,0.00,macros: energy/proximate consistency,
+12,8,11,Macaroni,pasta_dry,same,0,9.9,361,12.0,1.1,0.8,0.4,75.8,10,176,35,128,22,1.40,1.65,macros: energy/proximate consistency,
+13,9,15,"Rice, grains (long)",,alt,0,11.2,357,8.7,0.8,0.3,0.3,78.7,13,108,22,108,15,0.77,1.30,macros: energy/proximate consistency,
+13,9,16,"Rice, grains (short)",rice_white_raw,same,0,12.5,351,7.3,0.7,0.4,0.3,78.8,11,93,30,98,23,0.69,1.05,macros: energy/proximate consistency,
+14,10,26,Semolina,semolina,same,0,11.0,360,12.0,1.8,0.8,0.4,74.0,5,208,26,114,10,2.02,1.90,macros: energy/proximate consistency; minerals: second visual read,
+14,10,29,"Wheat, grains",wheat_whole,same,0,12.1,344,12.0,1.6,1.6,2.4,70.3,10,315,35,412,88,3.10,2.90,macros: energy/proximate consistency,
+14,10,32,"Wheat, flour (white)",flour,same,0,11.8,354,10.0,1.0,0.5,0.4,76.3,6,120,18,92,22,0.85,1.50,macros: energy/proximate consistency; minerals: second visual read,
+15,11,36,"Wheat, parboiled (Burghul)",bulgur_dry,same,0,11.8,352,12.3,1.8,1.5,1.0,71.4,37,350,43,405,66,3.20,4.20,macros: energy/proximate consistency,
+16,12,12,"Bread, Baladi",baladi_bread,same,0,35.3,254,8.8,1.0,1.1,1.3,52.5,338,236,42,134,14,2.89,1.75,macros: energy/proximate consistency,
+16,12,19,"Bread, crumb",breadcrumbs,same,0,9.7,356,10.3,2.0,1.8,2.0,74.2,501,200,76,115,15,2.00,1.53,macros: energy/proximate consistency,
+17,13,20,"Bread, French",,alt,0,28.8,285,8.7,1.0,0.9,0.3,60.3,296,125,14,94,18,0.70,1.10,macros: energy/proximate consistency,
+17,13,26,"Bread, sliced (white toast)",white_bread,same,0,33.0,270,8.4,1.5,1.0,0.5,55.6,400,152,30,,,1.00,0.90,macros: energy/proximate consistency,
+20,16,3,Colocasia,taro,same,23,79.1,77,2.1,0.2,1.2,0.8,16.6,14,495,62,60,13,1.00,0.50,macros: energy/proximate consistency,
+20,16,5,Potatoes,potato_raw,same,11,80.5,73,1.6,0.1,0.8,0.6,16.4,8,420,7,46,16,0.60,0.32,macros: energy/proximate consistency,
+20,16,12,Sweetpotatos,sweet_potato_baked,state_differs,19,70.5,112,1.8,0.3,1.0,0.9,25.5,13,398,39,40,25,0.80,0.30,macros: energy/proximate consistency; minerals: second visual read,
+21,17,1,"Beans, broad",fava_dry,same,0,10.3,326,24.1,1.5,3.2,6.9,54.0,35,724,85,386,148,5.80,3.14,macros: energy/proximate consistency,
+21,17,3,"Beans, broad, decorticated",,alt,0,10.4,346,25.9,2.0,2.7,2.8,56.2,39,640,92,359,126,4.80,2.90,macros: energy/proximate consistency,
+21,17,5,"Beans, broad (FoulMedames)",fava_cooked,same,0,73.7,98,5.6,0.7,0.8,2.0,17.2,24,218,37,183,,2.40,1.00,macros: energy/proximate consistency,
+21,17,10,"Beans, kidney (white)",,alt,0,10.8,333,22.1,1.4,3.5,4.2,58.0,36,1270,148,415,142,7.20,3.40,macros: energy/proximate consistency; minerals: second visual read,
+21,17,11,"Beans, kidney white, cooked",white_beans_cooked,prepared_differently,0,66.0,134,8.9,2.4,1.5,1.9,19.3,324,504,57,139,,2.50,1.13,macros: energy/proximate consistency; minerals: second visual read,
+22,18,14,Chickpeas,chickpeas_cooked,state_differs,0,8.6,352,20.3,4.2,3.3,5.3,58.3,50,962,127,352,122,6.70,4.70,macros: energy/proximate consistency,
+22,18,17,Cowpeas,,alt,0,11.3,330,23.0,1.2,3.1,4.7,56.7,30,1217,104,347,136,6.80,3.22,macros: energy/proximate consistency; minerals: second visual read,
+22,18,18,"Cowpeas, cooked",black_eyed_cooked,prepared_differently,0,68.0,131,8.5,3.5,1.6,2.0,16.4,343,579,37,96,34,2.20,1.07,macros: energy/proximate consistency,
+22,18,20,Fenugreek,fenugreek_seed,same,0,9.4,356,25.6,6.7,3.5,6.5,48.3,93,966,194,365,115,14.00,4.60,macros: energy/proximate consistency,
+22,18,23,"Lentils, peeled (yellow)",lentils_cooked,state_differs,0,11.5,340,22.9,0.7,2.3,2.1,60.5,41,765,50,330,82,6.80,3.20,macros: energy/proximate consistency,
+23,19,1,Almonds,almonds,same,0,4.6,640,17.6,55.8,2.7,2.5,16.8,7,793,215,485,230,4.50,3.20,macros: energy/proximate consistency,
+23,19,4,Peanuts,peanuts,state_differs,30,4.6,585,26.4,44.9,2.4,2.9,18.8,4,670,55,380,180,2.50,2.60,macros: energy/proximate consistency,
+24,20,9,Sesame butter (Tehina),tahini,same,0,3.0,660,20.0,60.0,3.0,4.0,10.0,84,205,340,665,44,6.10,5.50,macros: energy/proximate consistency,
+24,20,10,Walnuts,walnuts,same,0,3.4,695,14.7,64.9,1.8,2.2,13.0,5,600,75,390,120,2.00,2.80,macros: energy/proximate consistency,
+24,20,4,"Beans, green",green_beans,same,12,91.0,30,1.8,0.2,0.7,1.1,5.2,8,274,35,45,12,1.75,0.51,macros: energy/proximate consistency,
+25,21,6,Beetroots,beet,same,15,86.8,45,1.5,0.1,1.0,1.1,9.5,70,320,22,35,25,0.90,0.63,macros: energy/proximate consistency,
+25,21,7,Broccoli,broccoli,same,20,88.2,38,3.5,0.3,1.1,1.5,5.4,35,368,57,80,20,1.23,0.84,macros: energy/proximate consistency,
+25,21,10,"Cabbage, white",cabbage,same,25,91.6,27,1.3,0.2,0.7,1.2,5.0,35,250,40,32,15,0.58,0.30,macros: energy/proximate consistency,
+25,21,13,Carrots,carrot,same,5,89.4,36,1.2,0.2,0.8,1.0,7.4,62,300,40,42,18,0.58,0.42,macros: energy/proximate consistency,
+26,22,18,Chard Swiss,chard,same,17,91.2,27,2.3,0.4,1.7,0.9,3.5,164,505,85,32,57,3.05,2.00,macros: energy/proximate consistency; minerals: second visual read,
+26,22,21,Coriander,coriander_leaves,same,12,88.5,34,3.7,0.6,2.0,1.7,3.5,54,366,182,64,9,3.30,3.30,macros: energy/proximate consistency,
+26,22,23,Cucumber,cucumber,same,10,95.0,16,0.7,0.1,0.5,0.6,3.1,5,130,18,31,8,0.60,0.18,macros: energy/proximate consistency; minerals: second visual read,
+26,22,25,Dill,dill,same,10,88.9,36,2.9,0.5,1.5,1.2,5.0,60,305,150,41,20,2.10,3.60,macros: energy/proximate consistency; minerals: second visual read,
+26,22,26,"Eggplant, black or white",eggplant,same,16,91.3,28,1.7,0.2,0.7,1.2,4.9,7,272,15,25,13,0.50,0.33,macros: energy/proximate consistency,
+27,23,34,Garden rocket,arugula,same,25,89.9,32,2.5,0.5,1.7,1.0,4.4,33,257,127,40,13,8.30,0.80,macros: energy/proximate consistency,
+27,23,35,"Garlic, bulb",garlic,same,5,62.3,142,5.6,0.3,1.5,1.2,29.1,22,515,34,168,30,1.60,0.72,macros: energy/proximate consistency; minerals: second visual read,
+27,23,36,Grape leaves,grape_leaves,same,5,76.4,80,4.0,0.6,2.0,2.3,14.7,55,370,394,45,15,2.20,0.30,macros: energy/proximate consistency,
+27,23,39,Jew's mallow,molokhia,same,70,83.9,54,5.0,1.0,2.3,1.5,6.3,42,380,270,61,17,4.20,0.40,macros: energy/proximate consistency,
+28,24,43,"Lettuce, leaves",lettuce,similar,46,95.0,16,1.1,0.3,0.8,0.7,2.1,7,125,28,22,10,1.00,0.15,macros: energy/proximate consistency,
+28,24,48,Mint,mint,same,53,84.6,52,3.7,1.2,1.2,2.8,6.5,2,160,160,74,16,1.20,0.40,macros: energy/proximate consistency,
+28,24,49,Mushrooms,mushrooms,same,0,90.8,31,2.5,0.1,1.0,0.5,5.1,10,346,6,120,11,0.60,0.72,macros: energy/proximate consistency,
+28,24,51,Okra,okra,same,20,86.5,47,2.0,0.2,1.0,1.0,9.3,11,210,98,74,25,1.90,0.58,macros: energy/proximate consistency,
+29,25,56,"Onions, green",green_onion,same,40,86.6,49,1.1,0.2,0.5,0.9,10.7,10,224,125,50,8,1.05,0.07,macros: energy/proximate consistency,
+29,25,57,"Onions, mature bulb",onion,same,8,83.9,60,1.2,0.2,0.7,0.7,13.3,13,139,35,56,12,0.50,0.10,macros: energy/proximate consistency,
+29,25,59,Parsley,parsley,same,35,84.6,50,3.3,0.4,2.2,1.3,8.2,30,723,210,54,39,6.55,1.85,macros: energy/proximate consistency; minerals: second visual read,
+29,25,60,Peas,peas_green,same,60,75.3,89,6.2,0.4,0.9,2.1,15.1,3,286,20,122,19,1.70,1.26,macros: energy/proximate consistency,
+29,25,62,"Peppers, green",bell_pepper_green,same,15,92.2,24,1.3,0.3,0.6,1.5,4.1,25,195,15,25,14,0.90,0.30,macros: energy/proximate consistency,
+29,25,63,"Peppers, orange/red/yellow",bell_pepper_red,same,10,90.0,34,1.2,0.3,0.7,1.2,6.6,40,62,5,,3,0.95,0.21,macros: energy/proximate consistency,
+30,26,69,Spinach,spinach,same,20,92.4,22,2.5,0.3,1.7,0.7,2.4,58,540,92,47,54,4.20,0.40,macros: energy/proximate consistency,
+30,26,72,Squash,zucchini,same,15,92.8,24,1.3,0.2,0.7,0.8,4.2,6,200,25,31,12,0.50,0.19,macros: energy/proximate consistency; minerals: second visual read,
+31,27,77,Tomatoes,tomato,same,3,94.3,20,1.1,0.3,0.6,0.6,3.1,10,328,15,30,12,0.50,0.20,macros: energy/proximate consistency,
+31,27,79,"Tomato, paste",tomato_paste,same,0,78.0,78,3.8,0.4,2.5,0.5,14.8,807,514,25,83,28,3.10,0.51,macros: energy/proximate consistency,
+31,27,1F,Apples,apple,same,11,84.5,57,0.4,0.2,0.6,0.8,13.5,5,125,5,12,6,0.30,0.08,macros: energy/proximate consistency,
+31,27,3F,"Apricots, dried",dried_apricots,same,0,24.0,282,4.5,0.6,3.1,3.2,64.6,18,1615,86,120,40,5.00,0.63,macros: energy/proximate consistency,
+31,27,4F,Avocado,avocado,same,30,73.0,165,2.2,14.0,1.8,1.5,7.5,3,594,15,,,1.05,0.90,macros: energy/proximate consistency; minerals: second visual read,
+31,27,5F,Bananas,banana,same,33,75.2,95,1.3,0.3,0.9,0.6,21.7,3,350,10,25,30,0.60,0.21,macros: energy/proximate consistency,
+32,28,9F,"Dates, dried (Agwa)",dates,similar,0,18.0,315,2.3,0.5,1.7,2.2,75.3,3,690,62,61,44,3.20,0.40,macros: energy/proximate consistency,
+32,28,14F,Guavas,guava,same,5,81.2,62,0.8,0.5,0.6,3.4,13.5,8,255,23,44,25,0.80,0.46,macros: energy/proximate consistency,
+33,29,23F,Mangos,mango,same,43,81.8,68,0.8,0.3,0.5,1.1,15.5,10,200,15,17,8,0.50,0.18,macros: energy/proximate consistency,
+33,29,26F,Oranges,orange,same,28,85.5,56,1.1,0.3,0.4,0.6,12.1,3,181,37,28,7,0.30,0.20,macros: energy/proximate consistency; minerals: second visual read,
+34,30,36F,Raisins,raisins,same,0,17.0,320,2.4,0.3,1.8,1.6,76.9,30,740,63,90,34,1.64,0.16,macros: energy/proximate consistency; minerals: second visual read,
+34,30,38F,Strawberries,strawberries,same,7,90.3,34,0.8,0.4,0.6,1.2,6.7,2,185,26,24,15,0.90,0.10,macros: energy/proximate consistency; minerals: second visual read,
+34,30,40F,Watermelons,watermelon,same,48,92.8,26,0.4,0.1,0.4,0.4,5.9,2,90,6,11,7,0.40,0.40,UNCERTAIN — read from printed book,energy/protein/fat/carb partly covered by handwritten circles in the scan; protein 0.4 uncertain
+36,32,18S,Honey,honey,same,0,17.4,329,0.3,,0.3,,82.0,6,50,11,10,4,0.60,0.08,macros: energy/proximate consistency,fat and fiber printed as '-' (not determined)
+36,32,19S,Jams,jam,same,0,28.8,283,0.7,0.1,0.4,0.3,69.7,14,95,16,10,9,1.20,0.03,macros: energy/proximate consistency; minerals: second visual read,
+37,33,35S,"Sugar, sucrose",sugar,same,0,0.5,398,0.0,0.0,0.0,0.0,99.5,,,,,,,,macros: energy/proximate consistency,minerals printed as '-'
+39,35,13M,"Beef, liver",beef_liver_raw,same,0,70.5,132,19.5,4.0,1.6,0.0,4.4,88,303,10,352,14,7.80,7.70,macros: energy/proximate consistency; minerals: second visual read,
+39,35,16M,"Beef, meat",beef_cubes_lean_raw,different_cut,0,67.4,186,19.6,11.9,1.1,0.0,0.0,72,375,15,171,22,3.40,4.80,macros: energy/proximate consistency,"app item is lean (≈5% fat); NNI 'Beef, meat' has 11.9 g fat"
+39,35,17M,"Beef, meat ground",beef_lean_raw,different_cut,0,65.0,216,18.0,16.0,1.0,0.0,0.0,69,210,14,180,17,2.70,4.00,macros: energy/proximate consistency,app item is 95% lean ground beef; NNI ground beef has 16 g fat
+41,37,40M,"Chicken, meat (light)",chicken_breast_raw,same,0,75.6,109,20.5,3.0,0.9,0.0,0.0,58,330,11,214,19,1.10,0.69,macros: energy/proximate consistency; minerals: second visual read,
+41,37,39M,"Chicken, meat (dark)",chicken_thigh_raw,same,0,75.1,121,19.0,5.0,0.9,0.0,0.0,67,250,12,186,17,1.60,2.12,macros: energy/proximate consistency; minerals: second visual read,
+41,37,39M,"Chicken, meat (dark)",chicken_drumstick_raw,similar,0,75.1,121,19.0,5.0,0.9,0.0,0.0,67,250,12,186,17,1.60,2.12,macros: energy/proximate consistency; minerals: second visual read,NNI has no separate drumstick row
+42,38,49M,"Pigeon, meat and skin",pigeon_raw,different_cut,25,59.6,251,20.0,19.0,1.4,0.0,0.0,58,275,27,276,20,2.20,2.40,macros: energy/proximate consistency,NNI includes skin; app item is meat only
+42,38,1E,"Eggs, chicken, whole",egg_whole,same,12,75.2,149,12.6,10.8,1.1,0.0,0.3,155,130,62,218,15,2.50,1.50,macros: energy/proximate consistency,
+42,38,2E,"Eggs, chicken, white",egg_white,same,0,88.0,46,11.0,0.1,0.7,0.0,0.2,172,133,10,22,10,0.15,0.03,macros: energy/proximate consistency; minerals: second visual read,
+44,40,18Fi,"Sardines, canned",sardines_oil,same,10,58.8,227,22.0,15.4,3.7,0.0,0.1,630,257,320,354,28,3.00,2.90,macros: energy/proximate consistency; minerals: second visual read,
+45,41,21Fi,Shrimp,shrimp_raw,same,65,77.8,88,19.5,0.9,1.3,0.0,0.5,125,205,57,152,40,1.41,2.08,macros: energy/proximate consistency,
+45,41,25Fi,Tilapia,tilapia_raw,same,44,77.8,94,19.0,2.0,1.2,0.0,0.0,85,280,92,197,32,1.90,0.80,macros: energy/proximate consistency; minerals: second visual read,
+45,41,27Fi,"Tilapia, grilled",tilapia_cooked,similar,25,71.0,121,22.5,2.6,2.0,0.0,1.9,95,205,,129,,1.10,0.90,macros: energy/proximate consistency; minerals: second visual read,calcium and magnesium printed as '-'
+45,41,28Fi,Tuna canned,tuna_water,different_pack,0,54.2,267,24.6,18.5,2.3,0.0,0.4,450,285,10,189,31,2.75,0.40,macros: energy/proximate consistency,"NNI tuna is canned (fat 18.5 g, i.e. in oil); app item is tuna in water"
+45,41,1D,Butter (unsalted),butter,similar,0,16.7,742,0.7,82.0,0.3,0.0,0.3,10,25,15,23,2,0.16,0.15,macros: energy/proximate consistency,app item is salted butter
+45,41,2D,Butter oil (ghee),ghee,same,0,0.3,896,0.2,99.5,0.0,0.0,0.0,0,0,0,0,0,0.00,0.00,macros: energy/proximate consistency,
+46,42,6D,"Cheese, kareesh",areesh_cheese,same,0,77.5,100,13.0,3.5,1.9,0.0,4.1,130,95,300,161,23,0.41,2.40,macros: energy/proximate consistency; minerals: second visual read,
+46,42,7D,"Cheese, kareesh low fat",,alt,0,76.5,91,19.0,0.5,1.3,0.0,2.7,145,115,388,174,28,0.33,2.00,macros: energy/proximate consistency; minerals: second visual read,
+46,42,9D,"Cheese, mozzarella",mozzarella_light,similar,0,52.3,265,27.0,16.5,2.0,0.0,2.2,555,35,724,,,0.40,2.60,macros: energy/proximate consistency,NNI does not state the fat level; app item is part-skim
+46,42,10D,"Cheese, parmesan",parmesan,same,0,29.5,399,35.0,27.5,5.1,0.0,2.9,982,144,1016,715,,0.40,3.54,macros: energy/proximate consistency; minerals: second visual read,
+46,42,13D,"Cheese, white",white_cheese,same,0,53.4,256,16.3,19.8,7.3,0.0,3.2,2769,115,456,273,45,0.20,1.90,macros: energy/proximate consistency,
+47,43,25D,"Milk, half cream",milk_1pct,similar,0,89.1,48,3.4,1.5,0.9,0.0,5.1,52,153,128,88,17,0.05,0.40,macros: energy/proximate consistency,NNI half-cream milk has 1.5 g fat; app item is 1% milk
+47,43,26D,"Milk, low fat skimmed",,alt,0,89.6,41,3.5,0.6,1.0,0.0,5.3,50,143,126,95,16,0.05,0.40,macros: energy/proximate consistency,
+48,44,30D,"Yoghurt, low fat",yogurt_lowfat,same,0,87.5,50,4.0,0.9,1.2,0.0,6.4,60,185,170,105,14,0.20,0.22,macros: energy/proximate consistency,
+49,45,14B,"Juice, orange",orange_juice,same,0,88.4,46,0.6,0.2,0.3,0.1,10.4,4,220,10,19,10,0.40,0.30,macros: energy/proximate consistency,
+50,46,2C,Cinnamon,cinnamon,same,0,7.8,263,4.0,2.0,4.8,24.1,57.3,15,380,500,42,50,14.20,2.40,macros: energy/proximate consistency,
+50,46,4C,Coriander,coriander_seed,same,0,10.6,284,13.6,15.7,4.6,33.5,22.0,35,1020,380,408,85,18.20,8.70,macros: energy/proximate consistency,condiments section (seed)
+50,46,5C,Cumin,cumin,same,0,20.4,327,18.0,13.3,7.5,7.0,33.8,145,2150,1025,480,410,37.00,5.00,macros: energy/proximate consistency,water 20.4 g as printed
+50,46,6C,Ginger,ginger,state_differs,0,9.7,338,9.0,3.4,7.0,3.0,67.9,30,1200,120,240,165,10.70,5.10,macros: energy/proximate consistency,NNI row is the dried spice; app item is fresh root
+51,47,9C,"Pepper, red",paprika,similar,0,11.8,291,15.6,7.7,7.0,18.1,39.8,215,1150,140,230,145,8.70,3.40,macros: energy/proximate consistency,dried red pepper powder; app item is paprika
+51,47,10C,Thyme,thyme,state_differs,0,11.6,287,12.2,2.9,8.4,11.8,53.1,75,1000,210,180,295,41.00,5.80,macros: energy/proximate consistency,NNI row is dried; app item is fresh
+51,47,1Mi,Backing powder,baking_powder,same,0,2.1,144,0.9,,62.0,,35.0,10953,170,,5404,,,,macros: energy/proximate consistency,spelled 'Backing' in the source
+51,47,3Mi,Coca powder,cocoa_powder,similar,0,4.5,438,17.0,18.9,5.0,4.6,50.0,953,1420,130,650,,8.50,6.60,macros: energy/proximate consistency; minerals: second visual read,'Coca powder' as printed; sodium 953 mg suggests a processed powder
+51,47,8Mi,Oil (vegetable),sunflower_oil,similar,0,0.1,899,,99.9,,,,,,,,,,,macros: energy/proximate consistency,oil type not stated
+52,48,12Mi,Tamarind,tamarind,same,50,22.5,292,3.1,0.4,2.1,3.0,68.9,,,5,,,1.00,,UNCERTAIN — read from printed book,page is faded in the scan: every digit of this row is uncertain and must be read from the printed book
+52,48,10Mi,"Salt, table/cooking",salt,same,0,5.0,,,,,,,38900,,29,,,,,UNCERTAIN — read from printed book,faded page; sodium and calcium uncertain

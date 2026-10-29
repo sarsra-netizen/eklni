@@ -1,0 +1,352 @@
+{
+  "_meta": {
+    "note": "سجل المراجع المرفوعة من صاحب المشروع فقط. لا DOI ولا روابط مُخترعة؛ الرابط موجود فقط إذا كان مطبوعًا داخل المرجع نفسه. 'location' = مكان المعلومة داخل المرجع كما وُجدت أثناء القراءة.",
+    "reviewedAt": "2026-10-21",
+    "reviewedBy": null
+  },
+  "references": [
+    {
+      "id": "broad2019",
+      "title": "Sports Nutrition for Paralympic Athletes, Second Edition",
+      "authors": "Elizabeth Broad (editor)",
+      "year": 2019,
+      "publisher": "CRC Press (Taylor & Francis)",
+      "usedFor": [
+        {
+          "topic": "rmr_equations",
+          "location": "Chapter 3, Table 3.1 (p. 25): Cunningham 1980, Mifflin 1990, Harris & Benedict 1919",
+          "detail": "Cunningham عند توفر LBM مقاسة، وإلا Harris-Benedict مع قبول دقة أقل (نقلًا عن Thompson & Manore 1996 و ACSM)."
+        },
+        {
+          "topic": "limb_loss_rmr",
+          "location": "Chapter 3, p. 24 (Howell et al. 2015)",
+          "detail": "25 kcal/kg كأفضل تقدير في حالات البتر — غير مطبق؛ للعلم فقط."
+        },
+        {
+          "topic": "energy_availability",
+          "location": "Chapter 4, section 4.2 (p. 72)",
+          "detail": "EA = (EI − EEE)/FFM؛ ≥45 كافٍ، <30 منخفض (LEA)، 30–45 منخفض مقبول لفترات قصيرة لخسارة الوزن."
+        },
+        {
+          "topic": "carb_targets",
+          "location": "Chapter 3, Table 3.3",
+          "detail": "3–5 / 5–7 / 6–10 / 8–12 g/kg/d حسب الحمل؛ تزويد سريع 1–1.2 g/kg/h لأول 4 ساعات إذا كانت الحصة التالية خلال <8 ساعات."
+        },
+        {
+          "topic": "recovery",
+          "location": "Chapter 3, Table 3.4",
+          "detail": "تعويض 120–150% من السوائل المفقودة عند فقد >2% من الوزن؛ 20–25 جم بروتين عالي الجودة بعد التمرين."
+        },
+        {
+          "topic": "rehydration_volume",
+          "location": "Chapter 3, section 3.2.5.2؛ Chapter 5 (p. 97–98)",
+          "detail": "حجم سوائل ≈125–150% من العجز الناتج عن الحصة، مع صوديوم."
+        },
+        {
+          "topic": "fluid_deficit_limit",
+          "location": "Chapter 3 (personalised hydration plan)",
+          "detail": "إبقاء عجز السوائل أقل من 2% من الوزن في الأجواء الحارة."
+        },
+        {
+          "topic": "overhydration",
+          "location": "Chapter 3 (Almond 2005; Hew-Butler 2008)",
+          "detail": "الإفراط في الشرب مع تعرق قليل قد يسبب نقص صوديوم الدم؛ عوامل الخطر: أنثى، صغر الحجم، شدة منخفضة، إصابة نخاع شوكي."
+        },
+        {
+          "topic": "hydration_indicators",
+          "location": "Chapter 5, Figure 5.1 (p. 97)",
+          "detail": "وزن/بول/عطش: مؤشران = جفاف مرجّح، ثلاثة = مرجّح جدًا؛ USG <1.020 يشير لترطيب جيد."
+        },
+        {
+          "topic": "weight_loss_rate",
+          "location": "Chapter 3, Table C1 (p. 61–62)",
+          "detail": "عجز ~500–1000 kcal/d مع تجنب انخفاض توافر الطاقة؛ العجز يتناسب مع الاحتياج (أقل في إصابات النخاع الشوكي)."
+        },
+        {
+          "topic": "sci_thermoregulation",
+          "location": "Chapter 5, section 5.2",
+          "detail": "إصابات النخاع الشوكي تقلل التعرق وتنظيم الحرارة تحت مستوى الإصابة."
+        }
+      ]
+    },
+    {
+      "id": "barclay2012",
+      "title": "Nutrition for Swimmers",
+      "authors": "Barclay & McDonald (content support: Sarah Burkhart)",
+      "year": 2012,
+      "publisher": "NutritionForSwimmers.com",
+      "isbn": "978-0-9872614-2-7",
+      "usedFor": [
+        {
+          "topic": "swim_pre_training",
+          "location": "Chapter 2",
+          "detail": "سناك كربوهيدرات قبل التمرين بـ 30–60 دقيقة."
+        },
+        {
+          "topic": "swim_during",
+          "location": "Chapter 2",
+          "detail": "أقل من ساعة: ماء؛ أكثر من ساعة: مشروب رياضي أو سناك كربوهيدرات."
+        },
+        {
+          "topic": "swim_recovery",
+          "location": "Chapter 2",
+          "detail": "التعافي خلال 30 دقيقة وبحد أقصى ساعة: كربوهيدرات + بروتين + سوائل."
+        },
+        {
+          "topic": "swim_competition",
+          "location": "Chapter 2",
+          "detail": "وجبة قبل السباق بـ 2–4 ساعات وسناك قبلها بساعة؛ بين السباقات حسب الفاصل الزمني."
+        },
+        {
+          "topic": "swim_sweat",
+          "location": "Chapter 2",
+          "detail": "السباح لا يلاحظ عرقه؛ علامات الجفاف: دوخة، دوار، تقلصات، غثيان، صداع."
+        },
+        {
+          "topic": "sports_drink",
+          "location": "Chapter 2, p. 21–22",
+          "detail": "كربوهيدرات 4–8 جم/100 مل، صوديوم 500–700 ملجم/لتر، وغسل الفم بالماء بعده."
+        },
+        {
+          "topic": "supplements",
+          "location": "Chapter 2, p. 22",
+          "detail": "استخدام أي مكمل بناءً على نصيحة طبيب أو أخصائي تغذية رياضية."
+        },
+        {
+          "topic": "plate_model",
+          "location": "Chapter 3, p. 23",
+          "detail": "نصف الطبق خضار وفاكهة، ربع بروتين، ربع نشويات (للمراهق)."
+        },
+        {
+          "topic": "youth",
+          "location": "Chapter 1–2",
+          "detail": "الأطفال أعلى خطرًا للجفاف؛ المراهق يحتاج طاقة إضافية للنمو."
+        }
+      ]
+    },
+    {
+      "id": "gropper2022",
+      "title": "Advanced Nutrition and Human Metabolism, Eighth Edition",
+      "authors": "Sareen S. Gropper, Jack L. Smith, Timothy P. Carr",
+      "year": 2022,
+      "publisher": "Cengage Learning",
+      "usedFor": [
+        {
+          "topic": "ul_vitamins",
+          "location": "Front matter table 'Tolerable Upper Intake Levels (UL) for Vitamins'",
+          "detail": "فيتامين د UL: 2500 IU (1–3 س)، 3000 IU (4–8)، 4000 IU (9 سنوات فأكثر)."
+        },
+        {
+          "topic": "ul_minerals",
+          "location": "Front matter table 'Tolerable Upper Intake Levels (UL) for Minerals'",
+          "detail": "كالسيوم UL: 2500 (1–8)، 3000 (9–18)، 2500 (19–50)، 2000 (51+) ملجم؛ حديد UL: 40 (1–13)، 45 ملجم (14+)."
+        }
+      ]
+    },
+    {
+      "id": "dga2015",
+      "title": "2015–2020 Dietary Guidelines for Americans, 8th Edition — Appendix 7 (as reproduced in ISSA Sports Nutrition 5th ed., Appendix 1)",
+      "authors": "U.S. Department of Health and Human Services; U.S. Department of Agriculture",
+      "year": 2015,
+      "publisher": "USDHHS / USDA",
+      "url": "http://health.gov/dietaryguidelines/2015/guidelines/",
+      "urlNote": "الرابط مطبوع داخل المرجع نفسه (Suggested citation).",
+      "usedFor": [
+        {
+          "topic": "rda_minerals_vitamins",
+          "location": "Appendix 7, Table A7-1",
+          "detail": "RDA حسب العمر والجنس: كالسيوم، حديد، فيتامين د وغيرها (مصدرها IOM)."
+        }
+      ]
+    },
+    {
+      "id": "kealy2023",
+      "title": "Eat to Win",
+      "authors": "Laura Kealy",
+      "year": 2023,
+      "publisher": "Meyer & Meyer Sport (UK) Ltd.",
+      "usedFor": [
+        {
+          "topic": "red_s",
+          "location": "Part II, 'Relative Energy Deficiency in Sport' (p. 54–55)",
+          "detail": "RED-S ناتج عن انخفاض توافر الطاقة؛ أول ما يتأثر عادةً الدورة الشهرية (قلة/انقطاع) — يجب متابعتها والرجوع لمختص."
+        },
+        {
+          "topic": "menstrual_tracking",
+          "location": "Chapter 5",
+          "detail": "تتبع الدورة 3 أشهر على الأقل ومراجعة الملاحظات كل 4 أسابيع."
+        }
+      ]
+    },
+    {
+      "id": "schlenker2015",
+      "title": "Williams' Essentials of Nutrition and Diet Therapy, Eleventh Edition",
+      "authors": "Eleanor D. Schlenker, Joyce Gilbert",
+      "year": 2015,
+      "publisher": "Elsevier",
+      "usedFor": [
+        {
+          "topic": "female_athlete_triad",
+          "location": "Sports nutrition chapter",
+          "detail": "انخفاض توافر الطاقة واضطراب الدورة وانخفاض كثافة العظام؛ لا يوجد وزن هدف واحد لكل الرياضيات."
+        }
+      ]
+    },
+    {
+      "id": "wku_assessment",
+      "title": "Nutrition Assessment Form (WKU Nutrition Services)",
+      "authors": "Western Kentucky University Nutrition Services",
+      "year": null,
+      "publisher": "WKU",
+      "usedFor": [
+        {
+          "topic": "screening_questions",
+          "location": "pp. 1–3",
+          "detail": "التاريخ الطبي، الأدوية، المكملات، تاريخ الوزن (6 شهور/سنة)، النوم، الحميات السابقة — أساس أسئلة الفحص المبدئي."
+        }
+      ]
+    },
+    {
+      "id": "issa_plant",
+      "title": "Plant-Based Nutrition Coaching: How to Build Muscle with a Plant-Based Diet",
+      "authors": "ISSA",
+      "year": null,
+      "publisher": "ISSA",
+      "usedFor": [
+        {
+          "topic": "plant_based_risk",
+          "location": "section on micronutrients",
+          "detail": "النظام النباتي غير المخطط قد يسبب نقص B12 والحديد وفيتامين د والزنك والكالسيوم."
+        }
+      ]
+    },
+    {
+      "id": "issa_fitness",
+      "title": "ISSA Fitness Nutrition, First Edition (Rev. 2/2021)",
+      "authors": "ISSA LLC",
+      "year": 2020,
+      "publisher": "ISSA LLC",
+      "usedFor": []
+    },
+    {
+      "id": "roth2011",
+      "title": "Nutrition & Diet Therapy, 10th Edition",
+      "authors": "Ruth A. Roth",
+      "year": 2011,
+      "publisher": "Delmar, Cengage Learning",
+      "isbn": "978-1-4354-8629-4",
+      "usedFor": []
+    },
+    {
+      "id": "gropper2012",
+      "title": "Advanced Nutrition and Human Metabolism, Sixth Edition",
+      "authors": "Sareen S. Gropper, Jack L. Smith",
+      "year": 2012,
+      "publisher": "Cengage Learning",
+      "usedFor": []
+    },
+    {
+      "id": "bernstein2015",
+      "title": "Nutrition Management of Inherited Metabolic Diseases",
+      "authors": "Laurie E. Bernstein, Fran Rohr, Joanna R. Helm (editors)",
+      "year": 2015,
+      "publisher": "Springer",
+      "isbn": "978-3-319-14620-1",
+      "usedFor": [
+        {
+          "topic": "metabolic_disease_referral",
+          "location": "whole book",
+          "detail": "الأمراض الأيضية الوراثية تحتاج إدارة غذائية متخصصة — سبب للإحالة وعدم تطبيق خطة عامة."
+        }
+      ]
+    },
+    {
+      "id": "hse2020",
+      "title": "Food, Nutrition and Hydration Policy for Adults Accessing Disability Services",
+      "authors": "HSE (Health Service Executive, Ireland)",
+      "year": 2020,
+      "publisher": "HSE",
+      "usedFor": []
+    },
+    {
+      "id": "acs_cancer",
+      "title": "Nutrition for the Person With Cancer During Treatment: A Guide for Patients and Families",
+      "authors": "American Cancer Society",
+      "year": null,
+      "publisher": "American Cancer Society",
+      "usedFor": [
+        {
+          "topic": "chronic_disease_referral",
+          "location": "whole guide",
+          "detail": "التغذية أثناء علاج السرطان تحتاج فريق علاج — سبب للإحالة."
+        }
+      ]
+    },
+    {
+      "id": "nasm_ar",
+      "title": "NASM Sports Nutrition (Arabic translation)",
+      "authors": "NASM",
+      "year": null,
+      "publisher": "NASM",
+      "usedFor": [],
+      "note": "النسخة المرفوعة صور ممسوحة؛ النص المستخرج غير قابل للاعتماد، ولم يُستخدم في أي رقم."
+    },
+    {
+      "id": "nni2006",
+      "title": "Food Composition Tables for Egypt, Second edition",
+      "authors": "National Nutrition Institute (Cairo, A.R.E.)",
+      "year": 2006,
+      "publisher": "National Nutrition Institute, Cairo",
+      "note": "نسخة ممسوحة ضوئيًا رفعها صاحب المشروع (52 صفحة، عليها تعليقات بخط اليد). الشهر على الغلاف: May 2006.",
+      "usedFor": [
+        {
+          "topic": "food_composition_review",
+          "location": "Tables 'Composition of Foods, 100 Grams, Edible Portion', pp. 8–48",
+          "detail": "مقارنة فقط: 107 صف اتنقلوا يدويًا في data/review/nni-2006-transcription.csv وبيتقارنوا بقيم التطبيق في data/review/nni-comparison.csv. ولا قيمة في src/data/foods.json اتغيرت. الكربوهيدرات في الجداول من غير الألياف."
+        }
+      ]
+    },
+    {
+      "id": "usda_fndds_2021_2023",
+      "title": "Food and Nutrient Database for Dietary Studies (FNDDS) 2021-2023 — At A Glance: Ingredient Nutrient Values, FNDDS Ingredients, Foods and Beverages, Portions and Weights",
+      "authors": "USDA Agricultural Research Service, Food Surveys Research Group",
+      "year": 2023,
+      "publisher": "USDA ARS",
+      "note": "ملفات Excel رسمية رفعها صاحب المشروع. السنة هنا آخر سنة في دورة البيانات المكتوبة في اسم الملف (2021-2023)، مش تاريخ النشر.",
+      "usedFor": [
+        {
+          "topic": "food_composition_review",
+          "location": "Ingredient Nutrient Values sheet (ingredient code = SR Legacy NDB number; value source column)",
+          "detail": "مقارنة فقط: data/review/usda-fndds-subset.csv و usda-comparison.csv. ولا قيمة في التطبيق اتغيرت."
+        }
+      ]
+    },
+    {
+      "id": "usda_fdc_foundation_2025",
+      "title": "FoodData Central — Foundation Foods, CSV download 2025-12-18",
+      "authors": "USDA Agricultural Research Service",
+      "year": 2025,
+      "publisher": "USDA ARS",
+      "note": "ملف ZIP رسمي رفعه صاحب المشروع.",
+      "usedFor": [
+        {
+          "topic": "food_composition_review",
+          "location": "foundation_food.csv (NDB_number), food.csv, food_nutrient.csv",
+          "detail": "قيم معملية أحدث لـ 34 صنف؛ مقارنة فقط (data/review/usda-foundation-subset.csv)."
+        }
+      ]
+    }
+  ],
+  "appRules": {
+    "_note": "قواعد تصميمية خاصة بالتطبيق وليست من مرجع؛ تحتاج مراجعة أخصائي.",
+    "items": [
+      "carbAdj لكل رياضة ومرحلة موسم",
+      "PHASE_CAP (أقصى معدل خسارة لكل مرحلة)",
+      "الحد الأقصى للعجز 25% من الاحتياج",
+      "حد 1%/أسبوع كسقف عام لمعدل الخسارة",
+      "معامل 7700 سعرة/كجم (تقريب حسابي)",
+      "قيم MET (من Compendium of Physical Activities بالتقريب — غير مرفوع ضمن المراجع)",
+      "معادلة Boer لتقدير الكتلة الخالية من الدهون (غير موجودة في المراجع المرفوعة)"
+    ]
+  }
+}

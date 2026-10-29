@@ -1,0 +1,148 @@
+{
+ "generatedFrom": "src/data/foods.json",
+ "foods": 129,
+ "reviewed": 129,
+ "byReference": {
+  "NNI Egypt food composition table (preferred) + USDA as comparison": 8,
+  "USDA FDC SR Legacy — confirm the NDB number and description": 112,
+  "USDA FDC (search by description) or NNI Egypt": 8,
+  "definition (0 for all nutrients) — reviewer confirms": 1
+ },
+ "noReliableMatchYet": [
+  {
+   "id": "fava_cooked",
+   "ar": "فول مدمس (حبوب مطبوخة، بدون زيت)",
+   "reason": "local variant — Egyptian table preferred"
+  },
+  {
+   "id": "baladi_bread",
+   "ar": "عيش بلدي",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "dates",
+   "ar": "تمر",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "areesh_cheese",
+   "ar": "جبن قريش",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "chicken_drumstick_raw",
+   "ar": "دبابيس فراخ بدون جلد (لحم فقط، نيئة)",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "parmesan",
+   "ar": "جبنة رومي / بارميزان مبشورة",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "fava_dry",
+   "ar": "فول مدشوش / فول ناشف (جاف)",
+   "reason": "local variant — Egyptian table preferred"
+  },
+  {
+   "id": "beef_cubes_lean_raw",
+   "ar": "لحم بقري قطع قليلة الدهن (نيئ)",
+   "reason": "US substitute (proxy) for an Egyptian/local food"
+  },
+  {
+   "id": "pigeon_raw",
+   "ar": "حمام (لحم بدون جلد، نيئ)",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "molokhia",
+   "ar": "ملوخية خضرا مفرومة",
+   "reason": "local variant — Egyptian table preferred"
+  },
+  {
+   "id": "taro",
+   "ar": "قلقاس",
+   "reason": "local variant — Egyptian table preferred"
+  },
+  {
+   "id": "semolina",
+   "ar": "سميد",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "ghee",
+   "ar": "سمنة بلدي",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "white_cheese",
+   "ar": "جبنة بيضا (دمياطي/فيتا)",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "white_bread",
+   "ar": "عيش فينو / توست أبيض",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "water",
+   "ar": "ماء",
+   "reason": "no numeric identifier"
+  },
+  {
+   "id": "hibiscus_dry",
+   "ar": "كركديه ناشف",
+   "reason": "US substitute (proxy) for an Egyptian/local food"
+  }
+ ],
+ "atwaterGaps": [
+  {
+   "id": "lemon_juice",
+   "ar": "عصير ليمون",
+   "kcal": 22,
+   "flag": "atwater_gap_-39pct"
+  },
+  {
+   "id": "vinegar",
+   "ar": "خل تفاح",
+   "kcal": 21,
+   "flag": "atwater_gap_82pct"
+  },
+  {
+   "id": "balsamic",
+   "ar": "خل بلسمي",
+   "kcal": 88,
+   "flag": "atwater_gap_20pct"
+  },
+  {
+   "id": "molokhia",
+   "ar": "ملوخية خضرا مفرومة",
+   "kcal": 34,
+   "flag": "atwater_gap_-30pct"
+  },
+  {
+   "id": "coriander_seed",
+   "ar": "كزبرة ناشفة مطحونة",
+   "kcal": 298,
+   "flag": "atwater_gap_-16pct"
+  },
+  {
+   "id": "baking_powder",
+   "ar": "بيكنج باودر",
+   "kcal": 53,
+   "flag": "atwater_gap_-108pct"
+  },
+  {
+   "id": "cocoa_powder",
+   "ar": "كاكاو خام بدون سكر",
+   "kcal": 228,
+   "flag": "atwater_gap_-58pct"
+  }
+ ],
+ "coverage": {
+  "fiber": 128,
+  "ironMg": 112,
+  "vitDug": 98,
+  "calciumMg": 95
+ }
+}

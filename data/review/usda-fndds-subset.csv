@@ -1,0 +1,705 @@
+ndb,description,nutrient,value,value_source,fdc_id
+1001,"Butter, stick, salted",calcium_mg,21,Foundation,790508
+1001,"Butter, stick, salted",carb,0.06,SR Legacy,173410
+1001,"Butter, stick, salted",fat,82.2,Foundation,790508
+1001,"Butter, stick, salted",fiber,0,SR Legacy,173410
+1001,"Butter, stick, salted",iron_mg,0.06,Foundation,790508
+1001,"Butter, stick, salted",kcal,743,Informed by FDC Foundation and SR Legacy,
+1001,"Butter, stick, salted",protein,0.85,SR Legacy,173410
+1001,"Butter, stick, salted",vitd_ug,0.4,Foundation,790508
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",calcium_mg,126,Foundation,746772
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",carb,5.18,Foundation,746772
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",fat,0.95,Foundation,746772
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",fiber,0,SR Legacy,170872
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",iron_mg,0,Foundation,746772
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",kcal,43,Foundation,746772
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",protein,3.38,Foundation,746772
+1082,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",vitd_ug,1.1,Foundation,746772
+1117,"Yogurt, plain, low fat",calcium_mg,183,SR Legacy,170886
+1117,"Yogurt, plain, low fat",carb,7.04,SR Legacy,170886
+1117,"Yogurt, plain, low fat",fat,1.55,SR Legacy,170886
+1117,"Yogurt, plain, low fat",fiber,0,SR Legacy,170886
+1117,"Yogurt, plain, low fat",iron_mg,0.08,SR Legacy,170886
+1117,"Yogurt, plain, low fat",kcal,63,SR Legacy,170886
+1117,"Yogurt, plain, low fat",protein,5.25,SR Legacy,170886
+1117,"Yogurt, plain, low fat",vitd_ug,0,SR Legacy,170886
+1123,"Eggs, Grade A, Large, egg whole",calcium_mg,48,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",carb,0.96,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",fat,9.96,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",fiber,0,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",iron_mg,1.67,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",kcal,143,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",protein,12.4,Foundation,748967
+1123,"Eggs, Grade A, Large, egg whole",vitd_ug,2.5,Foundation,748967
+1124,"Eggs, Grade A, Large, egg white",calcium_mg,7,SR Legacy,172183
+1124,"Eggs, Grade A, Large, egg white",carb,2.36,Foundation,747997
+1124,"Eggs, Grade A, Large, egg white",fat,0,Foundation,747997
+1124,"Eggs, Grade A, Large, egg white",fiber,0,SR Legacy,172183
+1124,"Eggs, Grade A, Large, egg white",iron_mg,0.08,SR Legacy,172183
+1124,"Eggs, Grade A, Large, egg white",kcal,52,Foundation,747997
+1124,"Eggs, Grade A, Large, egg white",protein,10.7,Foundation,747997
+1124,"Eggs, Grade A, Large, egg white",vitd_ug,0,SR Legacy,172183
+1256,"Yogurt, Greek, plain, nonfat",calcium_mg,111,Foundation,330137
+1256,"Yogurt, Greek, plain, nonfat",carb,3.64,Foundation,330137
+1256,"Yogurt, Greek, plain, nonfat",fat,0.37,Foundation,330137
+1256,"Yogurt, Greek, plain, nonfat",fiber,0,SR Legacy,170894
+1256,"Yogurt, Greek, plain, nonfat",iron_mg,0.07,Foundation,330137
+1256,"Yogurt, Greek, plain, nonfat",kcal,59,Foundation,330137
+1256,"Yogurt, Greek, plain, nonfat",protein,10.3,Foundation,330137
+1256,"Yogurt, Greek, plain, nonfat",vitd_ug,0,Foundation,330137
+2010,"Spices, cinnamon, ground",calcium_mg,1002,SR Legacy,171320
+2010,"Spices, cinnamon, ground",carb,80.59,SR Legacy,171320
+2010,"Spices, cinnamon, ground",fat,1.24,SR Legacy,171320
+2010,"Spices, cinnamon, ground",fiber,53.1,SR Legacy,171320
+2010,"Spices, cinnamon, ground",iron_mg,8.32,SR Legacy,171320
+2010,"Spices, cinnamon, ground",kcal,247,SR Legacy,171320
+2010,"Spices, cinnamon, ground",protein,3.99,SR Legacy,171320
+2010,"Spices, cinnamon, ground",vitd_ug,0,SR Legacy,171320
+2014,"Spices, cumin seed",calcium_mg,931,SR Legacy,170923
+2014,"Spices, cumin seed",carb,44.24,SR Legacy,170923
+2014,"Spices, cumin seed",fat,22.27,SR Legacy,170923
+2014,"Spices, cumin seed",fiber,10.5,SR Legacy,170923
+2014,"Spices, cumin seed",iron_mg,66.36,SR Legacy,170923
+2014,"Spices, cumin seed",kcal,375,SR Legacy,170923
+2014,"Spices, cumin seed",protein,17.81,SR Legacy,170923
+2014,"Spices, cumin seed",vitd_ug,0,SR Legacy,170923
+2028,"Spices, paprika",calcium_mg,229,SR Legacy,171329
+2028,"Spices, paprika",carb,53.99,SR Legacy,171329
+2028,"Spices, paprika",fat,12.89,SR Legacy,171329
+2028,"Spices, paprika",fiber,34.9,SR Legacy,171329
+2028,"Spices, paprika",iron_mg,21.14,SR Legacy,171329
+2028,"Spices, paprika",kcal,282,SR Legacy,171329
+2028,"Spices, paprika",protein,14.14,SR Legacy,171329
+2028,"Spices, paprika",vitd_ug,0,SR Legacy,171329
+2043,"Spices, turmeric, ground",calcium_mg,168,SR Legacy,172231
+2043,"Spices, turmeric, ground",carb,67.14,SR Legacy,172231
+2043,"Spices, turmeric, ground",fat,3.25,SR Legacy,172231
+2043,"Spices, turmeric, ground",fiber,22.7,SR Legacy,172231
+2043,"Spices, turmeric, ground",iron_mg,55,SR Legacy,172231
+2043,"Spices, turmeric, ground",kcal,312,SR Legacy,172231
+2043,"Spices, turmeric, ground",protein,9.68,SR Legacy,172231
+2043,"Spices, turmeric, ground",vitd_ug,0,SR Legacy,172231
+2044,"Basil, fresh",calcium_mg,177,SR Legacy,172232
+2044,"Basil, fresh",carb,2.65,SR Legacy,172232
+2044,"Basil, fresh",fat,0.64,SR Legacy,172232
+2044,"Basil, fresh",fiber,1.6,SR Legacy,172232
+2044,"Basil, fresh",iron_mg,3.17,SR Legacy,172232
+2044,"Basil, fresh",kcal,23,SR Legacy,172232
+2044,"Basil, fresh",protein,3.15,SR Legacy,172232
+2044,"Basil, fresh",vitd_ug,0,SR Legacy,172232
+2046,"Mustard, prepared, yellow",calcium_mg,63,Foundation,326698
+2046,"Mustard, prepared, yellow",carb,5.3,Foundation,326698
+2046,"Mustard, prepared, yellow",fat,3.38,Foundation,326698
+2046,"Mustard, prepared, yellow",fiber,4.3,Foundation,326698
+2046,"Mustard, prepared, yellow",iron_mg,1.59,Foundation,326698
+2046,"Mustard, prepared, yellow",kcal,69,Foundation,326698
+2046,"Mustard, prepared, yellow",protein,4.25,Foundation,326698
+2046,"Mustard, prepared, yellow",vitd_ug,0,SR Legacy,172234
+2047,"Salt, table",calcium_mg,50,Foundation,746775
+2047,"Salt, table",carb,0,SR Legacy,173468
+2047,"Salt, table",fat,0,SR Legacy,173468
+2047,"Salt, table",fiber,0,SR Legacy,173468
+2047,"Salt, table",iron_mg,0,Foundation,746775
+2047,"Salt, table",kcal,0,Foundation,746775
+2047,"Salt, table",protein,0,SR Legacy,173468
+2047,"Salt, table",vitd_ug,0,SR Legacy,173468
+2048,"Vinegar, cider",calcium_mg,7,SR Legacy,173469
+2048,"Vinegar, cider",carb,0.93,SR Legacy,173469
+2048,"Vinegar, cider",fat,0,SR Legacy,173469
+2048,"Vinegar, cider",fiber,0,SR Legacy,173469
+2048,"Vinegar, cider",iron_mg,0.2,SR Legacy,173469
+2048,"Vinegar, cider",kcal,21,SR Legacy,173469
+2048,"Vinegar, cider",protein,0,SR Legacy,173469
+2048,"Vinegar, cider",vitd_ug,0,SR Legacy,173469
+2053,"Vinegar, distilled",calcium_mg,6,SR Legacy,172237
+2053,"Vinegar, distilled",carb,0.04,SR Legacy,172237
+2053,"Vinegar, distilled",fat,0,SR Legacy,172237
+2053,"Vinegar, distilled",fiber,0,SR Legacy,172237
+2053,"Vinegar, distilled",iron_mg,0.03,SR Legacy,172237
+2053,"Vinegar, distilled",kcal,18,SR Legacy,172237
+2053,"Vinegar, distilled",protein,0,SR Legacy,172237
+2053,"Vinegar, distilled",vitd_ug,0,SR Legacy,172237
+4058,"Oil, sesame, salad or cooking",calcium_mg,0,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",carb,0,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",fat,100,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",fiber,0,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",iron_mg,0,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",kcal,884,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",protein,0,SR Legacy,171016
+4058,"Oil, sesame, salad or cooking",vitd_ug,0,SR Legacy,171016
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",calcium_mg,5,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",carb,0,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",fat,2.62,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",fiber,0,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",iron_mg,0.37,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",kcal,120,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",protein,22.5,SR Legacy,171077
+5062,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",vitd_ug,0,SR Legacy,171077
+8120,"Cereals, oats, regular and quick, not fortified, dry",calcium_mg,52,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",carb,67.7,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",fat,6.52,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",fiber,10.1,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",iron_mg,4.25,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",kcal,379,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",protein,13.15,SR Legacy,173904
+8120,"Cereals, oats, regular and quick, not fortified, dry",vitd_ug,0,SR Legacy,173904
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",calcium_mg,6,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",carb,13.81,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",fat,0.17,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",fiber,2.4,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",iron_mg,0.12,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",kcal,52,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",protein,0.26,SR Legacy,171688
+9003,"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",vitd_ug,0,SR Legacy,171688
+9032,"Apricots, dried, sulfured, uncooked",calcium_mg,55,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",carb,62.64,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",fat,0.51,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",fiber,7.3,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",iron_mg,2.66,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",kcal,241,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",protein,3.39,SR Legacy,173941
+9032,"Apricots, dried, sulfured, uncooked",vitd_ug,0,SR Legacy,173941
+9037,"Avocados, raw, all commercial varieties",calcium_mg,12,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",carb,8.53,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",fat,14.66,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",fiber,6.7,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",iron_mg,0.55,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",kcal,160,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",protein,2,SR Legacy,171705
+9037,"Avocados, raw, all commercial varieties",vitd_ug,0,SR Legacy,171705
+9040,"Bananas, ripe and slightly ripe, raw",calcium_mg,5,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",carb,23,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",fat,0.29,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",fiber,1.7,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",iron_mg,0,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",kcal,98,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",protein,0.74,Foundation,1105314
+9040,"Bananas, ripe and slightly ripe, raw",vitd_ug,0,SR Legacy,173944
+9139,"Guavas, common, raw",calcium_mg,18,SR Legacy,173044
+9139,"Guavas, common, raw",carb,14.32,SR Legacy,173044
+9139,"Guavas, common, raw",fat,0.95,SR Legacy,173044
+9139,"Guavas, common, raw",fiber,5.4,SR Legacy,173044
+9139,"Guavas, common, raw",iron_mg,0.26,SR Legacy,173044
+9139,"Guavas, common, raw",kcal,68,SR Legacy,173044
+9139,"Guavas, common, raw",protein,2.55,SR Legacy,173044
+9139,"Guavas, common, raw",vitd_ug,0,SR Legacy,173044
+9152,"Lemon juice, raw",calcium_mg,6,SR Legacy,167747
+9152,"Lemon juice, raw",carb,6.9,SR Legacy,167747
+9152,"Lemon juice, raw",fat,0.24,SR Legacy,167747
+9152,"Lemon juice, raw",fiber,0.3,SR Legacy,167747
+9152,"Lemon juice, raw",iron_mg,0.08,SR Legacy,167747
+9152,"Lemon juice, raw",kcal,22,SR Legacy,167747
+9152,"Lemon juice, raw",protein,0.35,SR Legacy,167747
+9152,"Lemon juice, raw",vitd_ug,0,SR Legacy,167747
+9176,"Mangos, raw",calcium_mg,11,SR Legacy,169910
+9176,"Mangos, raw",carb,14.98,SR Legacy,169910
+9176,"Mangos, raw",fat,0.38,SR Legacy,169910
+9176,"Mangos, raw",fiber,1.6,SR Legacy,169910
+9176,"Mangos, raw",iron_mg,0.16,SR Legacy,169910
+9176,"Mangos, raw",kcal,60,SR Legacy,169910
+9176,"Mangos, raw",protein,0.82,SR Legacy,169910
+9176,"Mangos, raw",vitd_ug,0,SR Legacy,169910
+9200,"Oranges, raw, all commercial varieties",calcium_mg,40,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",carb,11.75,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",fat,0.12,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",fiber,2.4,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",iron_mg,0.1,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",kcal,47,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",protein,0.94,SR Legacy,169097
+9200,"Oranges, raw, all commercial varieties",vitd_ug,0,SR Legacy,169097
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",calcium_mg,9,Foundation,2003597
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",carb,10.01,Foundation,2003597
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",fat,0.36,Foundation,2003597
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",fiber,0.3,SR Legacy code 9209,
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",iron_mg,0.07,Foundation,2003597
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",kcal,47,Foundation,2003597
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",protein,0.81,Foundation,2003597
+9206,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",vitd_ug,0,SR Legacy code 9209,
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",calcium_mg,62,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",carb,79.32,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",fat,0.25,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",fiber,4.5,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",iron_mg,1.79,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",kcal,299,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",protein,3.3,SR Legacy,168165
+9298,"Raisins, dark, seedless (Includes foods for USDA's Food Distribution Program)",vitd_ug,0,SR Legacy,168165
+9316,"Strawberries, raw",calcium_mg,17,Foundation,2346409
+9316,"Strawberries, raw",carb,7.96,Foundation,2346409
+9316,"Strawberries, raw",fat,0.22,Foundation,2346409
+9316,"Strawberries, raw",fiber,1.8,Foundation,747448
+9316,"Strawberries, raw",iron_mg,0.26,Foundation,2346409
+9316,"Strawberries, raw",kcal,36,Foundation,2346409
+9316,"Strawberries, raw",protein,0.64,Foundation,2346409
+9316,"Strawberries, raw",vitd_ug,0,SR Legacy,167762
+9322,"Tamarinds, raw",calcium_mg,74,SR Legacy,167763
+9322,"Tamarinds, raw",carb,62.5,SR Legacy,167763
+9322,"Tamarinds, raw",fat,0.6,SR Legacy,167763
+9322,"Tamarinds, raw",fiber,5.1,SR Legacy,167763
+9322,"Tamarinds, raw",iron_mg,2.8,SR Legacy,167763
+9322,"Tamarinds, raw",kcal,239,SR Legacy,167763
+9322,"Tamarinds, raw",protein,2.8,SR Legacy,167763
+9322,"Tamarinds, raw",vitd_ug,0,SR Legacy,167763
+9326,"Watermelon, raw",calcium_mg,7,SR Legacy,167765
+9326,"Watermelon, raw",carb,7.55,SR Legacy,167765
+9326,"Watermelon, raw",fat,0.15,SR Legacy,167765
+9326,"Watermelon, raw",fiber,0.4,SR Legacy,167765
+9326,"Watermelon, raw",iron_mg,0.24,SR Legacy,167765
+9326,"Watermelon, raw",kcal,30,SR Legacy,167765
+9326,"Watermelon, raw",protein,0.61,SR Legacy,167765
+9326,"Watermelon, raw",vitd_ug,0,SR Legacy,167765
+11043,"Mung beans, mature seeds, sprouted, raw",calcium_mg,13,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",carb,5.94,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",fat,0.18,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",fiber,1.8,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",iron_mg,0.91,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",kcal,30,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",protein,3.04,SR Legacy,169957
+11043,"Mung beans, mature seeds, sprouted, raw",vitd_ug,0,SR Legacy,169957
+11052,"Beans, snap, green, raw",calcium_mg,40,Foundation,2346400
+11052,"Beans, snap, green, raw",carb,7.41,Foundation,2346400
+11052,"Beans, snap, green, raw",fat,0.28,Foundation,2346400
+11052,"Beans, snap, green, raw",fiber,3,Foundation,2346400
+11052,"Beans, snap, green, raw",iron_mg,0.65,Foundation,2346400
+11052,"Beans, snap, green, raw",kcal,40,Foundation,2346400
+11052,"Beans, snap, green, raw",protein,1.97,Foundation,2346400
+11052,"Beans, snap, green, raw",vitd_ug,0,SR Legacy,169961
+11080,"Beets, raw",calcium_mg,16,SR Legacy,169145
+11080,"Beets, raw",carb,9.56,SR Legacy,169145
+11080,"Beets, raw",fat,0.17,SR Legacy,169145
+11080,"Beets, raw",fiber,2.8,SR Legacy,169145
+11080,"Beets, raw",iron_mg,0.8,SR Legacy,169145
+11080,"Beets, raw",kcal,43,SR Legacy,169145
+11080,"Beets, raw",protein,1.61,SR Legacy,169145
+11080,"Beets, raw",vitd_ug,0,SR Legacy,169145
+11090,"Broccoli, raw",calcium_mg,46,Foundation,747447
+11090,"Broccoli, raw",carb,6.27,Foundation,747447
+11090,"Broccoli, raw",fat,0.34,Foundation,747447
+11090,"Broccoli, raw",fiber,2.4,Foundation,747447
+11090,"Broccoli, raw",iron_mg,0.69,Foundation,747447
+11090,"Broccoli, raw",kcal,39,Foundation,747447
+11090,"Broccoli, raw",protein,2.57,Foundation,747447
+11090,"Broccoli, raw",vitd_ug,0,SR Legacy,170379
+11109,"Cabbage, green, raw",calcium_mg,42,Foundation,2346407
+11109,"Cabbage, green, raw",carb,6.38,Foundation,2346407
+11109,"Cabbage, green, raw",fat,0.23,Foundation,2346407
+11109,"Cabbage, green, raw",fiber,2.5,SR Legacy,169975
+11109,"Cabbage, green, raw",iron_mg,0.07,Foundation,2346407
+11109,"Cabbage, green, raw",kcal,31,Foundation,2346407
+11109,"Cabbage, green, raw",protein,0.96,Foundation,2346407
+11109,"Cabbage, green, raw",vitd_ug,0,SR Legacy,169975
+11124,"Carrots, mature, raw",calcium_mg,30,Foundation,2258586
+11124,"Carrots, mature, raw",carb,10.27,Foundation,2258586
+11124,"Carrots, mature, raw",fat,0.35,Foundation,2258586
+11124,"Carrots, mature, raw",fiber,3.1,Foundation,2258586
+11124,"Carrots, mature, raw",iron_mg,0.15,Foundation,2258586
+11124,"Carrots, mature, raw",kcal,48,Foundation,2258586
+11124,"Carrots, mature, raw",protein,0.94,Foundation,2258586
+11124,"Carrots, mature, raw",vitd_ug,0,SR Legacy,170393
+11147,"Chard, swiss, raw",calcium_mg,51,SR Legacy,169991
+11147,"Chard, swiss, raw",carb,3.74,SR Legacy,169991
+11147,"Chard, swiss, raw",fat,0.2,SR Legacy,169991
+11147,"Chard, swiss, raw",fiber,1.6,SR Legacy,169991
+11147,"Chard, swiss, raw",iron_mg,1.8,SR Legacy,169991
+11147,"Chard, swiss, raw",kcal,19,SR Legacy,169991
+11147,"Chard, swiss, raw",protein,1.8,SR Legacy,169991
+11147,"Chard, swiss, raw",vitd_ug,0,SR Legacy,169991
+11165,"Coriander (cilantro) leaves, raw",calcium_mg,67,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",carb,3.67,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",fat,0.52,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",fiber,2.8,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",iron_mg,1.77,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",kcal,23,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",protein,2.13,SR Legacy,169997
+11165,"Coriander (cilantro) leaves, raw",vitd_ug,0,SR Legacy,169997
+11205,"Cucumber, with peel, raw",calcium_mg,16,Foundation,2346406
+11205,"Cucumber, with peel, raw",carb,2.95,Foundation,2346406
+11205,"Cucumber, with peel, raw",fat,0.18,Foundation,2346406
+11205,"Cucumber, with peel, raw",fiber,0.5,SR Legacy,168409
+11205,"Cucumber, with peel, raw",iron_mg,0,Foundation,2346406
+11205,"Cucumber, with peel, raw",kcal,16,Foundation,2346406
+11205,"Cucumber, with peel, raw",protein,0.62,Foundation,2346406
+11205,"Cucumber, with peel, raw",vitd_ug,0,SR Legacy,168409
+11209,"Eggplant, raw",calcium_mg,9,SR Legacy,169228
+11209,"Eggplant, raw",carb,5.88,SR Legacy,169228
+11209,"Eggplant, raw",fat,0.18,SR Legacy,169228
+11209,"Eggplant, raw",fiber,3,SR Legacy,169228
+11209,"Eggplant, raw",iron_mg,0.23,SR Legacy,169228
+11209,"Eggplant, raw",kcal,25,SR Legacy,169228
+11209,"Eggplant, raw",protein,0.98,SR Legacy,169228
+11209,"Eggplant, raw",vitd_ug,0,SR Legacy,169228
+11215,"Garlic, raw",calcium_mg,181,SR Legacy,169230
+11215,"Garlic, raw",carb,28.2,Foundation,1104647
+11215,"Garlic, raw",fat,0.38,Foundation,1104647
+11215,"Garlic, raw",fiber,2.7,Foundation,1104647
+11215,"Garlic, raw",iron_mg,1.7,SR Legacy,169230
+11215,"Garlic, raw",kcal,143,Foundation,1104647
+11215,"Garlic, raw",protein,6.62,Foundation,1104647
+11215,"Garlic, raw",vitd_ug,0,SR Legacy,169230
+11216,"Ginger root, raw",calcium_mg,16,SR Legacy,169231
+11216,"Ginger root, raw",carb,17.77,SR Legacy,169231
+11216,"Ginger root, raw",fat,0.75,SR Legacy,169231
+11216,"Ginger root, raw",fiber,2,SR Legacy,169231
+11216,"Ginger root, raw",iron_mg,0.6,SR Legacy,169231
+11216,"Ginger root, raw",kcal,80,SR Legacy,169231
+11216,"Ginger root, raw",protein,1.82,SR Legacy,169231
+11216,"Ginger root, raw",vitd_ug,0,SR Legacy,169231
+11260,"Mushrooms, white button",calcium_mg,5,Foundation,1999629
+11260,"Mushrooms, white button",carb,4.08,Foundation,1999629
+11260,"Mushrooms, white button",fat,0.37,Foundation,1999629
+11260,"Mushrooms, white button",fiber,1.7,Foundation,1999629
+11260,"Mushrooms, white button",iron_mg,0.23,Foundation,1999629
+11260,"Mushrooms, white button",kcal,31,Foundation,1999629
+11260,"Mushrooms, white button",protein,2.89,Foundation,1999629
+11260,"Mushrooms, white button",vitd_ug,0,Foundation,1999629
+11278,"Okra, raw",calcium_mg,82,SR Legacy,169260
+11278,"Okra, raw",carb,7.45,SR Legacy,169260
+11278,"Okra, raw",fat,0.19,SR Legacy,169260
+11278,"Okra, raw",fiber,3.2,SR Legacy,169260
+11278,"Okra, raw",iron_mg,0.62,SR Legacy,169260
+11278,"Okra, raw",kcal,33,SR Legacy,169260
+11278,"Okra, raw",protein,1.93,SR Legacy,169260
+11278,"Okra, raw",vitd_ug,0,SR Legacy,169260
+11282,"Onions, raw",calcium_mg,23,SR Legacy,170000
+11282,"Onions, raw",carb,9.34,SR Legacy,170000
+11282,"Onions, raw",fat,0.1,SR Legacy,170000
+11282,"Onions, raw",fiber,1.7,SR Legacy,170000
+11282,"Onions, raw",iron_mg,0.21,SR Legacy,170000
+11282,"Onions, raw",kcal,40,SR Legacy,170000
+11282,"Onions, raw",protein,1.1,SR Legacy,170000
+11282,"Onions, raw",vitd_ug,0,SR Legacy,170000
+11291,"Onions, spring or scallions (includes tops and bulb), raw",calcium_mg,72,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",carb,7.34,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",fat,0.19,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",fiber,2.6,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",iron_mg,1.48,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",kcal,32,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",protein,1.83,SR Legacy,170005
+11291,"Onions, spring or scallions (includes tops and bulb), raw",vitd_ug,0,SR Legacy,170005
+11297,"Parsley, fresh",calcium_mg,138,SR Legacy,170416
+11297,"Parsley, fresh",carb,6.33,SR Legacy,170416
+11297,"Parsley, fresh",fat,0.79,SR Legacy,170416
+11297,"Parsley, fresh",fiber,3.3,SR Legacy,170416
+11297,"Parsley, fresh",iron_mg,6.2,SR Legacy,170416
+11297,"Parsley, fresh",kcal,36,SR Legacy,170416
+11297,"Parsley, fresh",protein,2.97,SR Legacy,170416
+11297,"Parsley, fresh",vitd_ug,0,SR Legacy,170416
+11304,"Peas, green, raw",calcium_mg,25,SR Legacy,170419
+11304,"Peas, green, raw",carb,14.45,SR Legacy,170419
+11304,"Peas, green, raw",fat,0.4,SR Legacy,170419
+11304,"Peas, green, raw",fiber,5.7,SR Legacy,170419
+11304,"Peas, green, raw",iron_mg,1.47,SR Legacy,170419
+11304,"Peas, green, raw",kcal,81,SR Legacy,170419
+11304,"Peas, green, raw",protein,5.42,SR Legacy,170419
+11304,"Peas, green, raw",vitd_ug,0,SR Legacy,170419
+11333,"Peppers, bell, green, raw",calcium_mg,7,Foundation,2258588
+11333,"Peppers, bell, green, raw",carb,4.78,Foundation,2258588
+11333,"Peppers, bell, green, raw",fat,0.11,Foundation,2258588
+11333,"Peppers, bell, green, raw",fiber,0.9,Foundation,2258588
+11333,"Peppers, bell, green, raw",iron_mg,0.19,Foundation,2258588
+11333,"Peppers, bell, green, raw",kcal,23,Foundation,2258588
+11333,"Peppers, bell, green, raw",protein,0.72,Foundation,2258588
+11333,"Peppers, bell, green, raw",vitd_ug,0,SR Legacy,170427
+11352,"Potatoes, flesh and skin, raw",calcium_mg,12,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",carb,17.49,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",fat,0.09,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",fiber,2.1,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",iron_mg,0.81,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",kcal,77,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",protein,2.05,SR Legacy,170026
+11352,"Potatoes, flesh and skin, raw",vitd_ug,0,SR Legacy,170026
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",calcium_mg,8,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",carb,20.01,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",fat,0.1,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",fiber,1.8,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",iron_mg,0.31,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",kcal,86,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",protein,1.71,SR Legacy,170440
+11367,"Potatoes, boiled, cooked without skin, flesh, without salt",vitd_ug,0,SR Legacy,170440
+11457,"Spinach, mature",calcium_mg,67,Foundation,1999633
+11457,"Spinach, mature",carb,2.64,Foundation,1999633
+11457,"Spinach, mature",fat,0.6,Foundation,1999633
+11457,"Spinach, mature",fiber,1.6,Foundation,1999633
+11457,"Spinach, mature",iron_mg,1.05,Foundation,1999633
+11457,"Spinach, mature",kcal,28,Foundation,1999633
+11457,"Spinach, mature",protein,2.91,Foundation,1999633
+11457,"Spinach, mature",vitd_ug,0,SR Legacy,168462
+11477,"Squash, summer, zucchini, includes skin, raw",calcium_mg,16,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",carb,3.11,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",fat,0.32,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",fiber,1,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",iron_mg,0.37,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",kcal,17,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",protein,1.21,SR Legacy,169291
+11477,"Squash, summer, zucchini, includes skin, raw",vitd_ug,0,SR Legacy,169291
+11518,"Taro, raw",calcium_mg,43,SR Legacy,169308
+11518,"Taro, raw",carb,26.46,SR Legacy,169308
+11518,"Taro, raw",fat,0.2,SR Legacy,169308
+11518,"Taro, raw",fiber,4.1,SR Legacy,169308
+11518,"Taro, raw",iron_mg,0.55,SR Legacy,169308
+11518,"Taro, raw",kcal,112,SR Legacy,169308
+11518,"Taro, raw",protein,1.5,SR Legacy,169308
+11518,"Taro, raw",vitd_ug,0,SR Legacy,169308
+11529,"Tomatoes, red, ripe, raw, year round average",calcium_mg,10,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",carb,3.89,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",fat,0.2,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",fiber,1.2,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",iron_mg,0.27,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",kcal,18,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",protein,0.88,SR Legacy,170457
+11529,"Tomatoes, red, ripe, raw, year round average",vitd_ug,0,SR Legacy,170457
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",calcium_mg,36,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",carb,18.91,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",fat,0.47,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",fiber,4.1,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",iron_mg,2.98,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",kcal,82,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",protein,4.32,SR Legacy,170459
+11546,"Tomato products, canned, paste, without salt added (Includes foods for USDA's Food Distribution Program)",vitd_ug,0,SR Legacy,170459
+11819,"Peppers, hot chili, red, raw",calcium_mg,14,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",carb,8.81,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",fat,0.44,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",fiber,1.5,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",iron_mg,1.03,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",kcal,40,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",protein,1.87,SR Legacy,170106
+11819,"Peppers, hot chili, red, raw",vitd_ug,0,SR Legacy,170106
+11821,"Peppers, bell, red, raw",calcium_mg,6,Foundation,2258590
+11821,"Peppers, bell, red, raw",carb,6.65,Foundation,2258590
+11821,"Peppers, bell, red, raw",fat,0.13,Foundation,2258590
+11821,"Peppers, bell, red, raw",fiber,1.2,Foundation,2258590
+11821,"Peppers, bell, red, raw",iron_mg,0.35,Foundation,2258590
+11821,"Peppers, bell, red, raw",kcal,31,Foundation,2258590
+11821,"Peppers, bell, red, raw",protein,0.9,Foundation,2258590
+11821,"Peppers, bell, red, raw",vitd_ug,0,SR Legacy,170108
+11959,"Arugula, raw",calcium_mg,160,SR Legacy,169387
+11959,"Arugula, raw",carb,3.65,SR Legacy,169387
+11959,"Arugula, raw",fat,0.66,SR Legacy,169387
+11959,"Arugula, raw",fiber,1.6,SR Legacy,169387
+11959,"Arugula, raw",iron_mg,1.46,SR Legacy,169387
+11959,"Arugula, raw",kcal,25,SR Legacy,169387
+11959,"Arugula, raw",protein,2.58,SR Legacy,169387
+11959,"Arugula, raw",vitd_ug,0,SR Legacy,169387
+11974,"Grape leaves, raw",calcium_mg,363,SR Legacy,168575
+11974,"Grape leaves, raw",carb,17.31,SR Legacy,168575
+11974,"Grape leaves, raw",fat,2.12,SR Legacy,168575
+11974,"Grape leaves, raw",fiber,11,SR Legacy,168575
+11974,"Grape leaves, raw",iron_mg,2.63,SR Legacy,168575
+11974,"Grape leaves, raw",kcal,93,SR Legacy,168575
+11974,"Grape leaves, raw",protein,5.6,SR Legacy,168575
+11974,"Grape leaves, raw",vitd_ug,0,SR Legacy,168575
+12061,"Nuts, almonds, whole, raw",calcium_mg,254,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",carb,20.03,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",fat,51.09,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",fiber,10.8,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",iron_mg,3.74,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",kcal,626,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",protein,21.45,Foundation,2346393
+12061,"Nuts, almonds, whole, raw",vitd_ug,0,SR Legacy,170567
+12155,"Nuts, walnuts, English, halves, raw",calcium_mg,88,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",carb,10.91,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",fat,69.74,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",fiber,5.2,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",iron_mg,2.24,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",kcal,730,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",protein,14.56,Foundation,2346394
+12155,"Nuts, walnuts, English, halves, raw",vitd_ug,0,SR Legacy,170187
+14209,"Beverages, coffee, brewed, prepared with tap water",calcium_mg,2,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",carb,0,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",fat,0.02,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",fiber,0,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",iron_mg,0.01,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",kcal,1,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",protein,0.12,SR Legacy,171890
+14209,"Beverages, coffee, brewed, prepared with tap water",vitd_ug,0,SR Legacy,171890
+14355,"Beverages, tea, black, brewed, prepared with tap water",calcium_mg,0,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",carb,0.3,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",fat,0,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",fiber,0,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",iron_mg,0.02,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",kcal,1,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",protein,0,SR Legacy,173227
+14355,"Beverages, tea, black, brewed, prepared with tap water",vitd_ug,0,SR Legacy,173227
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",calcium_mg,382,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",carb,0,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",fat,11.45,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",fiber,0,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",iron_mg,2.92,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",kcal,208,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",protein,24.62,SR Legacy,175139
+15088,"Fish, sardine, Atlantic, canned in oil, drained solids with bone",vitd_ug,4.8,SR Legacy,175139
+15121,"Fish, tuna, light, canned in water, drained solids",calcium_mg,18,Foundation,334194
+15121,"Fish, tuna, light, canned in water, drained solids",carb,0.08,Foundation,334194
+15121,"Fish, tuna, light, canned in water, drained solids",fat,0.94,Foundation,334194
+15121,"Fish, tuna, light, canned in water, drained solids",fiber,0,SR Legacy,173709
+15121,"Fish, tuna, light, canned in water, drained solids",iron_mg,1.67,Foundation,334194
+15121,"Fish, tuna, light, canned in water, drained solids",kcal,85,Foundation,334194
+15121,"Fish, tuna, light, canned in water, drained solids",protein,19,Foundation,334194
+15121,"Fish, tuna, light, canned in water, drained solids",vitd_ug,1.2,Foundation,334194
+15261,"Fish, tilapia, raw",calcium_mg,10,SR Legacy,175176
+15261,"Fish, tilapia, raw",carb,0,SR Legacy,175176
+15261,"Fish, tilapia, raw",fat,1.7,SR Legacy,175176
+15261,"Fish, tilapia, raw",fiber,0,SR Legacy,175176
+15261,"Fish, tilapia, raw",iron_mg,0.56,SR Legacy,175176
+15261,"Fish, tilapia, raw",kcal,96,SR Legacy,175176
+15261,"Fish, tilapia, raw",protein,20.08,SR Legacy,175176
+15261,"Fish, tilapia, raw",vitd_ug,3.1,SR Legacy,175176
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",calcium_mg,36,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",carb,19.65,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",fat,0.4,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",fiber,5.4,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",iron_mg,1.5,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",kcal,110,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",protein,7.6,SR Legacy,173753
+16053,"Broadbeans (fava beans), mature seeds, cooked, boiled, without salt",vitd_ug,0,SR Legacy,173753
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",calcium_mg,49,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",carb,27.42,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",fat,2.59,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",fiber,7.6,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",iron_mg,2.89,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",kcal,164,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",protein,8.86,SR Legacy,173757
+16057,"Chickpeas (garbanzo beans, bengal gram), mature seeds, cooked, boiled, without salt",vitd_ug,0,SR Legacy,173757
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",calcium_mg,24,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",carb,20.76,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",fat,0.53,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",fiber,6.5,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",iron_mg,2.51,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",kcal,116,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",protein,7.73,SR Legacy,173759
+16063,"Cowpeas, common (blackeyes, crowder, southern), mature seeds, cooked, boiled, without salt",vitd_ug,0,SR Legacy,173759
+16070,"Lentils, mature seeds, cooked, boiled, without salt",calcium_mg,19,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",carb,20.13,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",fat,0.38,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",fiber,7.9,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",iron_mg,3.33,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",kcal,116,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",protein,9.02,SR Legacy,172421
+16070,"Lentils, mature seeds, cooked, boiled, without salt",vitd_ug,0,SR Legacy,172421
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",calcium_mg,49,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",carb,22.31,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",fat,51.36,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",fiber,5,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",iron_mg,1.74,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",kcal,598,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",protein,22.21,SR Legacy,174266
+16098,"Peanut butter, smooth style, with salt (Includes foods for USDA's Food Distribution Program)",vitd_ug,0,SR Legacy,174266
+16390,"Peanuts, all types, dry-roasted, without salt",calcium_mg,58,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",carb,21.26,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",fat,49.66,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",fiber,8.4,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",iron_mg,1.58,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",kcal,587,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",protein,24.35,SR Legacy,173806
+16390,"Peanuts, all types, dry-roasted, without salt",vitd_ug,0,SR Legacy,173806
+18042,"Bread, pita, whole-wheat",calcium_mg,15,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",carb,55.89,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",fat,1.71,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",fiber,6.1,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",iron_mg,3.06,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",kcal,262,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",protein,9.8,SR Legacy,174916
+18042,"Bread, pita, whole-wheat",vitd_ug,0,SR Legacy,174916
+18079,"Bread, crumbs, dry, grated, plain",calcium_mg,183,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",carb,71.98,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",fat,5.3,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",fiber,4.5,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",iron_mg,4.83,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",kcal,395,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",protein,13.35,SR Legacy,174928
+18079,"Bread, crumbs, dry, grated, plain",vitd_ug,0,SR Legacy,174928
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",calcium_mg,5876,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",carb,27.7,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",fat,0,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",fiber,0.2,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",iron_mg,11.02,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",kcal,53,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",protein,0,SR Legacy,172803
+18369,"Leavening agents, baking powder, double-acting, sodium aluminum sulfate",vitd_ug,0,SR Legacy,172803
+19165,"Cocoa, dry powder, unsweetened",calcium_mg,128,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",carb,57.9,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",fat,13.7,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",fiber,37,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",iron_mg,13.86,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",kcal,228,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",protein,19.6,SR Legacy,169593
+19165,"Cocoa, dry powder, unsweetened",vitd_ug,0,SR Legacy,169593
+19296,Honey,calcium_mg,6,SR Legacy,169640
+19296,Honey,carb,82.4,SR Legacy,169640
+19296,Honey,fat,0,SR Legacy,169640
+19296,Honey,fiber,0.2,SR Legacy,169640
+19296,Honey,iron_mg,0.42,SR Legacy,169640
+19296,Honey,kcal,304,SR Legacy,169640
+19296,Honey,protein,0.3,SR Legacy,169640
+19296,Honey,vitd_ug,0,SR Legacy,169640
+19297,Jams and preserves,calcium_mg,20,SR Legacy,169641
+19297,Jams and preserves,carb,68.86,SR Legacy,169641
+19297,Jams and preserves,fat,0.07,SR Legacy,169641
+19297,Jams and preserves,fiber,1.1,SR Legacy,169641
+19297,Jams and preserves,iron_mg,0.49,SR Legacy,169641
+19297,Jams and preserves,kcal,278,SR Legacy,169641
+19297,Jams and preserves,protein,0.37,SR Legacy,169641
+19297,Jams and preserves,vitd_ug,0,SR Legacy,169641
+19335,"Sugars, granulated",calcium_mg,1,Foundation,746784
+19335,"Sugars, granulated",carb,99.6,Foundation,746784
+19335,"Sugars, granulated",fat,0.32,Foundation,746784
+19335,"Sugars, granulated",fiber,0,SR Legacy,169655
+19335,"Sugars, granulated",iron_mg,0.05,Foundation,746784
+19335,"Sugars, granulated",kcal,401,Foundation,746784
+19335,"Sugars, granulated",protein,0,Foundation,746784
+19335,"Sugars, granulated",vitd_ug,0,SR Legacy,169655
+20012,"Bulgur, dry",calcium_mg,35,SR Legacy,170688
+20012,"Bulgur, dry",carb,75.87,SR Legacy,170688
+20012,"Bulgur, dry",fat,1.33,SR Legacy,170688
+20012,"Bulgur, dry",fiber,12.5,SR Legacy,170688
+20012,"Bulgur, dry",iron_mg,2.46,SR Legacy,170688
+20012,"Bulgur, dry",kcal,342,SR Legacy,170688
+20012,"Bulgur, dry",protein,12.29,SR Legacy,170688
+20012,"Bulgur, dry",vitd_ug,0,SR Legacy,170688
+20027,Cornstarch,calcium_mg,2,SR Legacy,169698
+20027,Cornstarch,carb,91.27,SR Legacy,169698
+20027,Cornstarch,fat,0.05,SR Legacy,169698
+20027,Cornstarch,fiber,0.9,SR Legacy,169698
+20027,Cornstarch,iron_mg,0.47,SR Legacy,169698
+20027,Cornstarch,kcal,381,SR Legacy,169698
+20027,Cornstarch,protein,0.26,SR Legacy,169698
+20027,Cornstarch,vitd_ug,0,SR Legacy,169698
+20044,"Rice, white, long-grain, regular, raw, enriched",calcium_mg,28,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",carb,79.95,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",fat,0.66,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",fiber,1.3,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",iron_mg,4.31,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",kcal,365,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",protein,7.13,SR Legacy,168877
+20044,"Rice, white, long-grain, regular, raw, enriched",vitd_ug,0,SR Legacy,168877
+20045,"Rice, white, long-grain, regular, enriched, cooked",calcium_mg,10,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",carb,28.17,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",fat,0.28,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",fiber,0.4,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",iron_mg,1.2,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",kcal,130,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",protein,2.69,SR Legacy,168878
+20045,"Rice, white, long-grain, regular, enriched, cooked",vitd_ug,0,SR Legacy,168878
+20081,"Flour, wheat, all-purpose, enriched, bleached",calcium_mg,19,Foundation,789890
+20081,"Flour, wheat, all-purpose, enriched, bleached",carb,77.3,Foundation,789890
+20081,"Flour, wheat, all-purpose, enriched, bleached",fat,1.48,Foundation,789890
+20081,"Flour, wheat, all-purpose, enriched, bleached",fiber,2.7,SR Legacy,168894
+20081,"Flour, wheat, all-purpose, enriched, bleached",iron_mg,5.62,Foundation,789890
+20081,"Flour, wheat, all-purpose, enriched, bleached",kcal,366,Foundation,789890
+20081,"Flour, wheat, all-purpose, enriched, bleached",protein,10.9,Foundation,789890
+20081,"Flour, wheat, all-purpose, enriched, bleached",vitd_ug,0,SR Legacy,168894
+20120,"Pasta, dry, enriched",calcium_mg,21,SR Legacy,169736
+20120,"Pasta, dry, enriched",carb,74.67,SR Legacy,169736
+20120,"Pasta, dry, enriched",fat,1.51,SR Legacy,169736
+20120,"Pasta, dry, enriched",fiber,3.2,SR Legacy,169736
+20120,"Pasta, dry, enriched",iron_mg,3.3,SR Legacy,169736
+20120,"Pasta, dry, enriched",kcal,371,SR Legacy,169736
+20120,"Pasta, dry, enriched",protein,13.04,SR Legacy,169736
+20120,"Pasta, dry, enriched",vitd_ug,0,SR Legacy,169736
+20121,"Pasta, cooked, enriched, without added salt",calcium_mg,7,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",carb,30.86,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",fat,0.93,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",fiber,1.8,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",iron_mg,1.28,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",kcal,158,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",protein,5.8,SR Legacy,169737
+20121,"Pasta, cooked, enriched, without added salt",vitd_ug,0,SR Legacy,169737

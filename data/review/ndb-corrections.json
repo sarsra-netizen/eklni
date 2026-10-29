@@ -1,0 +1,6 @@
+{
+  "_meta": "Corrections to NDB numbers written in src/data/foods.json 'source'. Each one was checked against the official FNDDS 2021-2023 ingredient file (description + values). Used by scripts/usda-extract.py and scripts/usda-apply.js.",
+  "corrections": {
+    "baladi_bread": { "from": 18041, "to": 18042, "why": "the app item is the whole-wheat pita proxy; 18041 is white pita, 18042 is 'Bread, pita, whole-wheat'" }
+  }
+}

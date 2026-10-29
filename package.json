@@ -1,0 +1,21 @@
+{
+  "name": "eklni",
+  "version": "0.8.0",
+  "description": "أكلني | Eklni — Eklni Nutrition Platform (منصة التغذية الذكية | Smart Nutrition Platform)",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --no-warnings src/server.js",
+    "test": "node --no-warnings --test test/*.test.js",
+    "backup": "node --no-warnings scripts/backup.js",
+    "restore": "node --no-warnings scripts/restore.js",
+    "check-config": "node -e \"const r=require('./src/config').checkConfig();console.log(JSON.stringify(r,null,2));process.exitCode=r.errors.length?1:0\"",
+    "owner": "node --no-warnings scripts/owner.js",
+    "review-foods": "node scripts/review-foods.js",
+    "verify-fixes": "node scripts/verify-fixes.js",
+    "build:mobile": "node demo/build.js --mobile"
+  }
+}

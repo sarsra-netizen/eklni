@@ -1,0 +1,389 @@
+{
+  "_meta": "Each fix from AUDIT.md (0.5.0) and from this round, mapped to the test(s) that prove it. scripts/verify-fixes.js runs the whole suite and checks every listed test passed.",
+  "fixes": [
+    {
+      "id": "SEC-1",
+      "fix": "owner granted only from the server console",
+      "tests": [
+        "only the owner can extend or cancel; extension uses calendar months"
+      ]
+    },
+    {
+      "id": "SEC-2",
+      "fix": "non-object JSON rejected",
+      "tests": [
+        "SEC-2: non-object JSON bodies are rejected with 400, never 500"
+      ]
+    },
+    {
+      "id": "SEC-3",
+      "fix": "password length bounded",
+      "tests": [
+        "SEC-3: password length is bounded"
+      ]
+    },
+    {
+      "id": "SEC-4",
+      "fix": "in-memory throttle bounded",
+      "tests": [
+        "SEC-4: throttle map is bounded and drops empty keys"
+      ]
+    },
+    {
+      "id": "SEC-5",
+      "fix": "expired sessions purged",
+      "tests": [
+        "retention: expired sessions, old audit rows and old invites are purged"
+      ]
+    },
+    {
+      "id": "SEC-6",
+      "fix": "legacy accounts get a trial",
+      "tests": [
+        "SEC-6: legacy accounts get a trial on upgrade instead of being locked"
+      ]
+    },
+    {
+      "id": "SEC-7",
+      "fix": "production config check, HSTS, file permissions",
+      "tests": [
+        "production config: refuses unsafe settings",
+        "HSTS is sent only when secure cookies (HTTPS) are configured",
+        "backup: consistent copy of a live database, verified, owner-only permissions, rotation"
+      ]
+    },
+    {
+      "id": "SEC-8",
+      "fix": "staff views are read-only",
+      "tests": [
+        "SEC-8: staff viewing an athlete does not write into the athlete history"
+      ]
+    },
+    {
+      "id": "SEC-10",
+      "fix": "registration throttled",
+      "tests": [
+        "SEC-10: registration is throttled per address"
+      ]
+    },
+    {
+      "id": "DAT-1/6",
+      "fix": "trust levels, estimate labelling, reviewed-only mode, review script",
+      "tests": [
+        "every output built from unreviewed values is labelled as an estimate",
+        "reviewed-only mode refuses to build a plan while reviewed data is insufficient",
+        "review script: validates every row and writes nothing on any error",
+        "integrity: a food counts as reviewed only with reviewer, source and date"
+      ]
+    },
+    {
+      "id": "SCI-1",
+      "fix": "menstrual question required for female athletes",
+      "tests": [
+        "SCI-1: for a female athlete the menstrual question cannot be skipped"
+      ]
+    },
+    {
+      "id": "SCI-2",
+      "fix": "measured RMR plausibility",
+      "tests": [
+        "SCI-2: measured RMR must be plausible for the body (hand-computed Mifflin)"
+      ]
+    },
+    {
+      "id": "SCI-3",
+      "fix": "start date window",
+      "tests": [
+        "SCI-3: start date window is enforced on the server"
+      ]
+    },
+    {
+      "id": "SCI-4",
+      "fix": "hydration dates real and not future",
+      "tests": [
+        "SCI-4: hydration dates must be real and not in the future"
+      ]
+    },
+    {
+      "id": "SCI-5/6",
+      "fix": "no future check-ins; servings range",
+      "tests": [
+        "SCI-5 / SCI-6: no check-ins for future weeks; servings out of range are rejected, not silently changed"
+      ]
+    },
+    {
+      "id": "SCI-7",
+      "fix": "405 / 404",
+      "tests": [
+        "SCI-7: 405 for a wrong method; 404 when deleting something that does not exist"
+      ]
+    },
+    {
+      "id": "EXPORT-DELETE",
+      "fix": "full export, account deletion, retention",
+      "tests": [
+        "export: everything about the user, no secrets, and still available when locked",
+        "deletion needs the confirmation word and the password; then all personal rows are gone",
+        "an academy is never left without an admin; solo academies are removed; creator is reassigned"
+      ]
+    },
+    {
+      "id": "BACKUP",
+      "fix": "backup / restore",
+      "tests": [
+        "restore: refuses without confirmation or with a bad file; keeps the previous database"
+      ]
+    },
+    {
+      "id": "NOTIFY",
+      "fix": "delivery separate from preferences",
+      "tests": [
+        "saving preferences does not send anything; validation rejects bad values",
+        "delivery: due reminders reach the in-app inbox once (idempotent), respecting time and data",
+        "external forwarding only for opted-in users; failures are retried at most 3 times"
+      ]
+    },
+    {
+      "id": "PRO",
+      "fix": "dietitian verification + separate PRO subscription",
+      "tests": [
+        "consent alone is not enough: unverified dietitian sees the coach view",
+        "the two subscriptions stay separate"
+      ]
+    },
+    {
+      "id": "DEMO",
+      "fix": "browser-shared modules",
+      "tests": [
+        "modules shared with the browser demo use no Node built-ins and no unguarded process.env"
+      ]
+    },
+    {
+      "id": "R1-FOOD",
+      "fix": "food review worksheet + FDC comparison (no approvals)",
+      "tests": [
+        "every review comes from a named person through scripts/review-foods.js (reviewer, date, source, previous values kept)",
+        "worksheet: one pending row per food, nothing modified",
+        "FDC comparison flags differences, wrong identifiers and missing data (synthetic fixture)",
+        "an unexpected download format is rejected, not silently mis-read"
+      ]
+    },
+    {
+      "id": "R1-SCIENCE",
+      "fix": "science review file in sync with code",
+      "tests": [
+        "documented values equal the values in the code",
+        "season caps are defined once (rate.PHASE_CAP equals the season table)",
+        "every rule says its basis; references point to the registry; a review is claimed only with reviewer, date and decision"
+      ]
+    },
+    {
+      "id": "R1-SCREENING",
+      "fix": "screening questionnaire for review in sync",
+      "tests": [
+        "every screening field is in the review document",
+        "every flag code in the code is in the review document",
+        "document states it is not medically approved"
+      ]
+    },
+    {
+      "id": "R1-CSRF",
+      "fix": "origin check",
+      "tests": [
+        "CSRF: cross-site state changes are refused; same-origin and reads are allowed"
+      ]
+    },
+    {
+      "id": "R1-RESET",
+      "fix": "password reset / e-mail verification tokens",
+      "tests": [
+        "password reset: one-time, short-lived, newest link only, logs out everywhere, no account enumeration",
+        "e-mail verification: token sets the flag once; without a gateway nothing is sent"
+      ]
+    },
+    {
+      "id": "R1-THROTTLE",
+      "fix": "shared persistent throttle",
+      "tests": [
+        "throttle is shared between processes using the same database and survives a restart"
+      ]
+    },
+    {
+      "id": "R1-CONFIG",
+      "fix": "encryption attestation & origins config",
+      "tests": [
+        "config: disk-encryption is an attestation warning, origins must be https hosts"
+      ]
+    },
+    {
+      "id": "V7-MINOR",
+      "fix": "0.7.0: weight loss for 12–17 only with linked-guardian consent; deficit ≤15%",
+      "tests": [
+        "age limits: 11 rejected, 12 accepted",
+        "without guardian consent a minor stays at maintenance",
+        "family invite → parent links → consent lifts the hold; revoke or unlink restores it",
+        "other red flags still hold a minor even with guardian consent",
+        "minor limits: deficit ≤15% of needs (app rule R-W6)"
+      ]
+    },
+    {
+      "id": "V7-SPORTS",
+      "fix": "0.7.0: fencing, modern pentathlon, triathlon",
+      "tests": [
+        "validation: new sports and their disciplines",
+        "energy: net-MET exercise energy (hand-computed) and estimate warnings",
+        "guidance: sport and discipline text is added, numbers unchanged by discipline"
+      ]
+    },
+    {
+      "id": "V7-SHARE",
+      "fix": "0.7.0: read-only share links (e-mail / WhatsApp / Telegram)",
+      "tests": [
+        "share needs consent, a valid duration and a plan",
+        "link works without login, hides private data, is noindex, and can be revoked",
+        "expired links and links of an inactive subscription stop working",
+        "deleting the account removes its links"
+      ]
+    },
+    {
+      "id": "V7-GOOGLE",
+      "fix": "0.7.0: sign in with Google (OIDC + PKCE, id_token verified)",
+      "tests": [
+        "new Google user: account created, e-mail verified, trial started, no usable password, PKCE verifier sent",
+        "rejected tokens: wrong audience, issuer, nonce, signature, expiry, unverified e-mail, tampered state",
+        "unit: alg \"none\" and unknown kid are rejected",
+        "existing password account with an UNVERIFIED e-mail: password and sessions cancelled, then linked",
+        "existing account with a VERIFIED e-mail keeps its password when Google is linked",
+        "config: Google needs both credentials and an https public URL in production"
+      ]
+    },
+    {
+      "id": "V7-HOUSE",
+      "fix": "0.7.0: household — same dishes for shared meals, personal grams",
+      "tests": [
+        "household: create, invite, join; one membership per person; bad codes rejected",
+        "shared breakfast: same dish and sides for both brothers, grams from each one’s own targets",
+        "an allergy wins over the household dish",
+        "leaving: the house passes to the next member; deleting the last account removes it"
+      ]
+    },
+    {
+      "id": "V7-USDA",
+      "fix": "0.7.0: comparison with official USDA files, no value changed",
+      "tests": [
+        "USDA subsets only hold the app’s claimed NDB numbers, with the source of every value",
+        "comparison flags real differences and never approves a food"
+      ]
+    },
+    {
+      "id": "V7-OVERRIDE",
+      "fix": "0.7.0: non-athlete mode, name in PDF, one-week calorie override",
+      "tests": [
+        "non-athlete: no sport, discipline, season phase or competition; season change refused",
+        "PDF: shows the person’s name and no \"unreviewed estimate\" banner",
+        "override: safety minimum, at most 7 days, plan follows it, then targets come back",
+        "override while the plan is held: no deficit below maintenance"
+      ]
+    },
+    {
+      "id": "V7-WAIVER",
+      "fix": "0.7.0: adult self-responsibility waiver with non-waivable cases",
+      "tests": [
+        "engine: waiver lifts missing screening and clearable red flags for adults only",
+        "API: every acknowledgement required; deficit applies; withdraw restores maintenance",
+        "API: refused for under 18",
+        "accepting or withdrawing rebuilds an existing week plan so meals follow the new calories",
+        "with the acknowledgement an adult may choose up to 0.9 kg/week (reviewer decision); never minors or pregnancy"
+      ]
+    },
+    {
+      "id": "V7-PDF",
+      "fix": "0.7.0: downloadable nutrition PDF (server Chromium or in-browser)",
+      "tests": [
+        "pdf writer: valid header, one page object per image, correct xref offsets",
+        "page cuts: forced breaks, no cut inside a block that fits a page, every pixel on exactly one page",
+        "server PDF: 501 with a clear message when Chromium is not configured",
+        "server PDF: real A4 PDF download with the signature on the pages (needs a Chromium binary)"
+      ]
+    },
+    {
+      "id": "V7-NNI",
+      "fix": "0.7.0: NNI 2006 transcription + comparison, no food value changed",
+      "tests": [
+        "NNI transcription: every row has its page and is internally consistent",
+        "NNI rows point at real app foods and each app food appears once",
+        "comparison: carbohydrate adds NNI fibre back; nothing is approved; foods.json untouched"
+      ]
+    },
+    {
+      "id": "V7-REVIEW",
+      "fix": "0.7.0: reviewer decisions 2026-10-22 (deficit ≤35%, referral from 3 REDS signs, waiver up to 0.9 kg/week, documented values match code)",
+      "tests": [
+        "severe deficit is capped at 35 % of TDEE (reviewer decision 2026-10-22) and flagged",
+        "screening: holds and referral reasons",
+        "with the acknowledgement an adult may choose up to 0.9 kg/week (reviewer decision); never minors or pregnancy",
+        "documented values equal the values in the code"
+      ]
+    },
+    {
+      "id": "V7-GAIN",
+      "fix": "0.7.0: gain goals (muscle_gain, weight_gain, fat_gain) — app rules R-G1…R-G6 approved by the reviewer 2026-10-22",
+      "tests": [
+        "validation: gain goals need a higher target; loss goals still need a lower one",
+        "plan: surplus above TDEE, within the goal cap, macros add up, protein and fat per rule",
+        "plan: minors and in-season athletes gain more slowly; custom rate above the cap is refused",
+        "timeline, progress and target date work upward",
+        "adaptive: slower gain → proposal to add energy; much faster → reduce; never on thin data",
+        "screening: a surplus plan is not held for REDS-type signs, but eating, chronic and pregnancy still hold",
+        "API: a gain goal gives surplus targets after screening; surplus applies once screening is done"
+      ]
+    },
+    {
+      "id": "A8-D1",
+      "fix": "audit 2026-10-22: a free meal's TARGET was added to the day total as if it were food; totals now = calculated food only, allowance kept apart",
+      "tests": [
+        "audit D1: meal = sum of items, day = sum of meals, week = sum of days, free-meal allowance kept apart (112 plans)",
+        "free meal on its date; its allowance is a separate budget, never counted as food"
+      ]
+    },
+    {
+      "id": "A8-D2-D4",
+      "fix": "audit 2026-10-22: reports state the real data sources, RMR and TDEE separately, the calculation version, review state and page numbers",
+      "tests": [
+        "nutrition file: RMR and TDEE separate, version, real sources (no stale SR-Legacy-only claim), page numbers, free-meal budget"
+      ]
+    },
+    {
+      "id": "A8-F1",
+      "fix": "audit 2026-10-22: logged intake separate from planned food and targets; incomplete days stay incomplete",
+      "tests": [
+        "engine: logged entry = planned items × fraction; free meal is not quantified; nothing comes from targets",
+        "API: log, change, clear; week totals sum entries; incomplete days stay incomplete; future and foreign days refused"
+      ]
+    },
+    {
+      "id": "A8-F2",
+      "fix": "audit 2026-10-22: dietitian plan review (approve / revise / reject / refer), server-side clinical-level only, bound to current targets, audited",
+      "tests": [
+        "plan review: only a verified, subscribed dietitian with consent; bound to the current targets; audited"
+      ]
+    },
+    {
+      "id": "A8-F3-F5",
+      "fix": "audit 2026-10-22: calcVersion + methods on every plan, TDEE scenario range, macro energy check, Mifflin by hand",
+      "tests": [
+        "Mifflin-St Jeor by hand: male 80 kg, 180 cm, 30 y = 1780; female same = 1614 (predicted, not measured)",
+        "plan carries calcVersion and methods; TDEE range brackets the estimate",
+        "macro annotations: 4/4/9 energy, gap within rounding, g/kg and % of energy"
+      ]
+    },
+    {
+      "id": "M8-MOBILE",
+      "fix": "0.8.0: offline Android app bundle and shell (no external URLs, strict CSP, no auto cloud backup, tests gate the APK build)",
+      "tests": [
+        "mobile bundle: offline (no external URLs), strict CSP, mobile mode on, no demo seed or subscription lock",
+        "android shell: no automatic cloud backup, file sharing only from the app cache, workflow tests before building"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+ndb,fdc_id,description,nutrient,value
+1001,790508,"Butter, stick, salted",calcium_mg,21.0
+1001,790508,"Butter, stick, salted",fat,82.2
+1001,790508,"Butter, stick, salted",iron_mg,0.06
+1001,790508,"Butter, stick, salted",vitd_ug,0.4
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",calcium_mg,126.0
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",carb,5.18
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",fat,0.95
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",iron_mg,0.0
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",kcal,43.0
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",kcal_atwater_general,43
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",protein,3.38
+1082,746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",vitd_ug,1.06
+1123,748967,"Eggs, Grade A, Large, egg whole",calcium_mg,48.0
+1123,748967,"Eggs, Grade A, Large, egg whole",carb,0.96
+1123,748967,"Eggs, Grade A, Large, egg whole",fat,9.96
+1123,748967,"Eggs, Grade A, Large, egg whole",fiber,0.0
+1123,748967,"Eggs, Grade A, Large, egg whole",iron_mg,1.67
+1123,748967,"Eggs, Grade A, Large, egg whole",kcal,148.0
+1123,748967,"Eggs, Grade A, Large, egg whole",kcal_atwater_general,143
+1123,748967,"Eggs, Grade A, Large, egg whole",protein,12.4
+1123,748967,"Eggs, Grade A, Large, egg whole",vitd_ug,2.46
+1124,747997,"Eggs, Grade A, Large, egg white",carb,2.36
+1124,747997,"Eggs, Grade A, Large, egg white",fat,0.0
+1124,747997,"Eggs, Grade A, Large, egg white",kcal,55.0
+1124,747997,"Eggs, Grade A, Large, egg white",kcal_atwater_general,52
+1124,747997,"Eggs, Grade A, Large, egg white",protein,10.7
+1256,330137,"Yogurt, Greek, plain, nonfat",calcium_mg,111.0
+1256,330137,"Yogurt, Greek, plain, nonfat",carb,3.64
+1256,330137,"Yogurt, Greek, plain, nonfat",fat,0.37
+1256,330137,"Yogurt, Greek, plain, nonfat",iron_mg,0.07
+1256,330137,"Yogurt, Greek, plain, nonfat",kcal,61.0
+1256,330137,"Yogurt, Greek, plain, nonfat",kcal_atwater_general,59
+1256,330137,"Yogurt, Greek, plain, nonfat",protein,10.3
+1256,330137,"Yogurt, Greek, plain, nonfat",vitd_ug,0.0
+2046,326698,"Mustard, prepared, yellow",calcium_mg,63.0
+2046,326698,"Mustard, prepared, yellow",carb,5.3
+2046,326698,"Mustard, prepared, yellow",fat,3.38
+2046,326698,"Mustard, prepared, yellow",fiber,4.3
+2046,326698,"Mustard, prepared, yellow",iron_mg,1.59
+2046,326698,"Mustard, prepared, yellow",kcal,61.0
+2046,326698,"Mustard, prepared, yellow",kcal_atwater_general,69
+2046,326698,"Mustard, prepared, yellow",protein,4.25
+2047,746775,"Salt, table, iodized",calcium_mg,50.0
+2047,746775,"Salt, table, iodized",iron_mg,0.0
+2047,746775,"Salt, table, iodized",kcal_atwater_general,0
+9040,1105314,"Bananas, ripe and slightly ripe, raw",calcium_mg,5.0
+9040,1105314,"Bananas, ripe and slightly ripe, raw",carb,23.0
+9040,1105314,"Bananas, ripe and slightly ripe, raw",fat,0.29
+9040,1105314,"Bananas, ripe and slightly ripe, raw",fiber,1.7
+9040,1105314,"Bananas, ripe and slightly ripe, raw",iron_mg,0.0
+9040,1105314,"Bananas, ripe and slightly ripe, raw",kcal,97.0
+9040,1105314,"Bananas, ripe and slightly ripe, raw",kcal_atwater_general,98
+9040,1105314,"Bananas, ripe and slightly ripe, raw",protein,0.74
+9206,2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",calcium_mg,9.288
+9206,2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",carb,10.0124
+9206,2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",fat,0.3563
+9206,2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",iron_mg,0.07061
+9206,2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",kcal_atwater_general,46.5063
+9206,2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",protein,0.8125
+9316,2346409,"Strawberries, raw",calcium_mg,16.9
+9316,2346409,"Strawberries, raw",carb,7.964375
+9316,2346409,"Strawberries, raw",fat,0.22
+9316,2346409,"Strawberries, raw",iron_mg,0.255
+9316,2346409,"Strawberries, raw",kcal_atwater_general,36.4
+9316,2346409,"Strawberries, raw",protein,0.640625
+11052,2346400,"Beans, snap, green, raw",calcium_mg,40.05
+11052,2346400,"Beans, snap, green, raw",carb,7.41245
+11052,2346400,"Beans, snap, green, raw",fat,0.275
+11052,2346400,"Beans, snap, green, raw",fiber,3.011
+11052,2346400,"Beans, snap, green, raw",iron_mg,0.6516
+11052,2346400,"Beans, snap, green, raw",kcal_atwater_general,39.9998
+11052,2346400,"Beans, snap, green, raw",protein,1.96875
+11080,2685576,"Beets, raw",calcium_mg,13.82
+11080,2685576,"Beets, raw",carb,8.787
+11080,2685576,"Beets, raw",fat,0.3025
+11080,2685576,"Beets, raw",fiber,3.119
+11080,2685576,"Beets, raw",iron_mg,0.4281
+11080,2685576,"Beets, raw",kcal_atwater_general,44.6205
+11080,2685576,"Beets, raw",protein,1.6875
+11090,747447,"Broccoli, raw",calcium_mg,46.0
+11090,747447,"Broccoli, raw",carb,6.27
+11090,747447,"Broccoli, raw",fat,0.34
+11090,747447,"Broccoli, raw",fiber,2.4
+11090,747447,"Broccoli, raw",iron_mg,0.69
+11090,747447,"Broccoli, raw",kcal,31.0
+11090,747447,"Broccoli, raw",kcal_atwater_general,39
+11090,747447,"Broccoli, raw",protein,2.57
+11109,2346407,"Cabbage, green, raw",calcium_mg,41.84
+11109,2346407,"Cabbage, green, raw",carb,6.38375
+11109,2346407,"Cabbage, green, raw",fat,0.2275
+11109,2346407,"Cabbage, green, raw",iron_mg,0.06625
+11109,2346407,"Cabbage, green, raw",kcal_atwater_general,31.4275
+11109,2346407,"Cabbage, green, raw",protein,0.96125
+11124,2258586,"Carrots, mature, raw",calcium_mg,30.48
+11124,2258586,"Carrots, mature, raw",carb,10.26755
+11124,2258586,"Carrots, mature, raw",fat,0.3506
+11124,2258586,"Carrots, mature, raw",fiber,3.095
+11124,2258586,"Carrots, mature, raw",iron_mg,0.1504
+11124,2258586,"Carrots, mature, raw",kcal_atwater_general,47.9906
+11124,2258586,"Carrots, mature, raw",protein,0.94125
+11205,2346406,"Cucumber, with peel, raw",calcium_mg,16.34
+11205,2346406,"Cucumber, with peel, raw",carb,2.9525
+11205,2346406,"Cucumber, with peel, raw",fat,0.1775
+11205,2346406,"Cucumber, with peel, raw",iron_mg,0.0
+11205,2346406,"Cucumber, with peel, raw",kcal_atwater_general,15.9075
+11205,2346406,"Cucumber, with peel, raw",protein,0.625
+11209,2685577,"Eggplant, raw",calcium_mg,11.06
+11209,2685577,"Eggplant, raw",carb,5.399325
+11209,2685577,"Eggplant, raw",fat,0.12
+11209,2685577,"Eggplant, raw",fiber,2.448
+11209,2685577,"Eggplant, raw",iron_mg,0.0
+11209,2685577,"Eggplant, raw",kcal_atwater_general,26.0848
+11209,2685577,"Eggplant, raw",protein,0.851875
+11215,1104647,"Garlic, raw",carb,28.2
+11215,1104647,"Garlic, raw",fat,0.38
+11215,1104647,"Garlic, raw",fiber,2.7
+11215,1104647,"Garlic, raw",kcal,143.0
+11215,1104647,"Garlic, raw",kcal_atwater_general,143
+11215,1104647,"Garlic, raw",protein,6.62
+11251,746769,"Lettuce, cos or romaine, raw",calcium_mg,35.0
+11251,746769,"Lettuce, cos or romaine, raw",carb,3.24
+11251,746769,"Lettuce, cos or romaine, raw",fat,0.26
+11251,746769,"Lettuce, cos or romaine, raw",fiber,1.8
+11251,746769,"Lettuce, cos or romaine, raw",iron_mg,0.95
+11251,746769,"Lettuce, cos or romaine, raw",kcal,17.0
+11251,746769,"Lettuce, cos or romaine, raw",kcal_atwater_general,20
+11251,746769,"Lettuce, cos or romaine, raw",protein,1.24
+11260,1999629,"Mushrooms, white button",calcium_mg,5.465
+11260,1999629,"Mushrooms, white button",carb,4.079375
+11260,1999629,"Mushrooms, white button",fat,0.3708
+11260,1999629,"Mushrooms, white button",fiber,1.717
+11260,1999629,"Mushrooms, white button",iron_mg,0.2267
+11260,1999629,"Mushrooms, white button",kcal_atwater_general,31.2172
+11260,1999629,"Mushrooms, white button",protein,2.890625
+11260,1999629,"Mushrooms, white button",vitd_ug,0.0217
+11333,2258588,"Peppers, bell, green, raw",calcium_mg,7.496
+11333,2258588,"Peppers, bell, green, raw",carb,4.7781
+11333,2258588,"Peppers, bell, green, raw",fat,0.1063
+11333,2258588,"Peppers, bell, green, raw",fiber,0.9419
+11333,2258588,"Peppers, bell, green, raw",iron_mg,0.1861
+11333,2258588,"Peppers, bell, green, raw",kcal_atwater_general,22.9291
+11333,2258588,"Peppers, bell, green, raw",protein,0.715
+11457,1999633,"Spinach, mature",calcium_mg,66.64
+11457,1999633,"Spinach, mature",carb,2.64135
+11457,1999633,"Spinach, mature",fat,0.6044
+11457,1999633,"Spinach, mature",fiber,1.588
+11457,1999633,"Spinach, mature",iron_mg,1.054
+11457,1999633,"Spinach, mature",kcal_atwater_general,27.63
+11457,1999633,"Spinach, mature",protein,2.90625
+11546,2685580,"Tomato, paste, canned, without salt added",calcium_mg,36.85
+11546,2685580,"Tomato, paste, canned, without salt added",carb,20.188125
+11546,2685580,"Tomato, paste, canned, without salt added",fat,0.7325
+11546,2685580,"Tomato, paste, canned, without salt added",fiber,4.704
+11546,2685580,"Tomato, paste, canned, without salt added",iron_mg,3.185
+11546,2685580,"Tomato, paste, canned, without salt added",kcal_atwater_general,104.2825
+11546,2685580,"Tomato, paste, canned, without salt added",protein,4.234375
+11821,2258590,"Peppers, bell, red, raw",calcium_mg,6.361
+11821,2258590,"Peppers, bell, red, raw",carb,6.653175
+11821,2258590,"Peppers, bell, red, raw",fat,0.1256
+11821,2258590,"Peppers, bell, red, raw",fiber,1.158
+11821,2258590,"Peppers, bell, red, raw",iron_mg,0.3533
+11821,2258590,"Peppers, bell, red, raw",kcal_atwater_general,31.3256
+11821,2258590,"Peppers, bell, red, raw",protein,0.895625
+12061,2346393,"Nuts, almonds, whole, raw",calcium_mg,253.6
+12061,2346393,"Nuts, almonds, whole, raw",carb,20.03462
+12061,2346393,"Nuts, almonds, whole, raw",fat,51.09
+12061,2346393,"Nuts, almonds, whole, raw",fiber,10.78
+12061,2346393,"Nuts, almonds, whole, raw",iron_mg,3.741
+12061,2346393,"Nuts, almonds, whole, raw",kcal_atwater_general,625.75
+12061,2346393,"Nuts, almonds, whole, raw",protein,21.45038
+12155,2346394,"Nuts, walnuts, English, halves, raw",calcium_mg,88.26
+12155,2346394,"Nuts, walnuts, English, halves, raw",carb,10.9096
+12155,2346394,"Nuts, walnuts, English, halves, raw",fat,69.74
+12155,2346394,"Nuts, walnuts, English, halves, raw",fiber,5.21
+12155,2346394,"Nuts, walnuts, English, halves, raw",iron_mg,2.235
+12155,2346394,"Nuts, walnuts, English, halves, raw",kcal_atwater_general,729.556
+12155,2346394,"Nuts, walnuts, English, halves, raw",protein,14.5644
+15121,334194,"Fish, tuna, light, canned in water, drained solids",calcium_mg,18.0
+15121,334194,"Fish, tuna, light, canned in water, drained solids",carb,0.08
+15121,334194,"Fish, tuna, light, canned in water, drained solids",fat,0.94
+15121,334194,"Fish, tuna, light, canned in water, drained solids",iron_mg,1.67
+15121,334194,"Fish, tuna, light, canned in water, drained solids",kcal,90.0
+15121,334194,"Fish, tuna, light, canned in water, drained solids",kcal_atwater_general,85
+15121,334194,"Fish, tuna, light, canned in water, drained solids",protein,19.0
+15121,334194,"Fish, tuna, light, canned in water, drained solids",vitd_ug,1.2
+16098,2262072,"Peanut butter, creamy",calcium_mg,49.85
+16098,2262072,"Peanut butter, creamy",carb,22.70376
+16098,2262072,"Peanut butter, creamy",fat,49.43
+16098,2262072,"Peanut butter, creamy",fiber,6.323
+16098,2262072,"Peanut butter, creamy",iron_mg,1.853
+16098,2262072,"Peanut butter, creamy",kcal_atwater_general,631.65
+16098,2262072,"Peanut butter, creamy",protein,23.99124
+19335,746784,"Sugars, granulated",calcium_mg,1.0
+19335,746784,"Sugars, granulated",carb,99.6
+19335,746784,"Sugars, granulated",fat,0.32
+19335,746784,"Sugars, granulated",iron_mg,0.05
+19335,746784,"Sugars, granulated",kcal,385.0
+19335,746784,"Sugars, granulated",kcal_atwater_general,401
+19335,746784,"Sugars, granulated",protein,0.0
+20012,2710820,"Bulgur, dry, raw",calcium_mg,34.11
+20012,2710820,"Bulgur, dry, raw",carb,75.88175
+20012,2710820,"Bulgur, dry, raw",fat,2.421
+20012,2710820,"Bulgur, dry, raw",fiber,11.72
+20012,2710820,"Bulgur, dry, raw",iron_mg,2.625
+20012,2710820,"Bulgur, dry, raw",kcal_atwater_general,372.341
+20012,2710820,"Bulgur, dry, raw",protein,11.75625
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",calcium_mg,19.0
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",carb,77.3
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",fat,1.48
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",iron_mg,5.62
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",kcal,366.0
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",kcal_atwater_general,366
+20081,789890,"Flour, wheat, all-purpose, enriched, bleached",protein,10.9
