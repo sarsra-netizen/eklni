@@ -90,3 +90,12 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: dist/*.apk
+
+      - name: Publish a build Release on pushes to main (direct APK download link)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: Eklni ${{ env.EKLNI_VERSION_NAME }} build ${{ github.run_number }}
+          files: dist/*.apk
+          make_latest: true
